@@ -1,0 +1,53 @@
+<div>
+    <p>
+        The meeting was an unsettling buffet of conspiracy and grievance. They had gathered at a former daycare center, tucked on a rural road in the Pine Barrens. American flags and Trump signs hung on off-white walls. A fluorescent yellow placard, bearing a rhinoceros silhouette, leaned against the lectern. It read, “Please stop feeding the RINOS” — Republicans In Name Only. Four speakers then took turns riling up the Shamong audience of 40 or so, seated in mismatched metal folding chairs.Democrats are grooming your children, they said. The 2020 election was stolen. Liberals will do it again in November if you don’t serve as poll monitors. 
+
+Then a polished man in a fashionable blue suit and designer, black-rimmed glasses strolled to the front of the spacious room that Friday evening in March. He apologized for being tired before launching into his key issue.
+
+Migrants. Specifically, the “vermin” and “slime” coming into the United States.
+
+“They're bringing in more than crime,” Dr. Stephen Soloway, a rheumatologist based in Vineland and a longtime friend of former President Donald Trump, told the audience. “They're bringing in more than rape. They're bringing in something invisible. They're bringing in diseases.”
+
+A dozen or so applauded Soloway, the keynote speaker, as state Assemblyman Bob Auth (R-Bergen) and others looked on from the back. 
+
+The event — billed as a “Hands Off My Ballot” rally and open to the public — was hosted by two influential organizations: the America First Republicans of New Jersey and the New Jersey Project, a parental rights collective named an anti-government organization this year by the Southern Poverty Law Center.
+
+These grassroots groups are among a loose confederation of far-right organizations that have somehow found an audience in New Jersey, long celebrated as a left-leaning bastion of pragmatic politics. And they’ve done it using hate speech, bigotry and rage. 
+
+“Even in New Jersey, they are latching on to these populous talking points of: ‘It’s the other guy.’ It’s the fear of the other,” said a state Democratic official not authorized to speak for the party.
+
+“It’s a tale as old as time.”
+
+These influencers are engineering outrage, weaponizing cultural issues, and sowing division and distrust in traditionally moderate New Jersey, NJ Advance Media has found in a nine-month investigation of the Garden State’s burgeoning ultraconservative movement. They are attempting to mainstream extremism by hijacking conventional political issues and portraying them through the prism of conspiracy theories, discrimination and scapegoating as we approach maybe the most divisive presidential election in American history, our investigation found. All the while, moderate state Republicans are turning a blind eye or even supporting the movement to satisfy their base. 
+
+We attended events ranging from pro-Trump rallies to fundraisers for Jan. 6 rioters to church movie nights and found overtly xenophobic, antisemitic and anti-LGBTQ+ rhetoric at many of them — complete with white supremacist overtones. We also monitored social media accounts, podcasts and internet forums and interviewed xx politicians, law enforcement officials, political insiders and experts, examining the pockets of extremism that have developed in New Jersey in the aftermath of the 2016 presidential election and the Jan. 6, 2021 Capitol riot. 
+
+Some groups, such as the America First Republicans and Concerned Citizens of NJ, are pulling the strings of New Jersey’s political fury, polarizing and inflaming voters and casting doubt on democratic institutions, including the GOP itself. They’re employing scare tactics, borrowing talking points from Russian state television and trying to normalize racist and white nationalist rhetoric, our investigation found. And these toxic influencers are manipulating geopolitical, religious and education issues on a grassroots level to seed discord and rally support for far-right causes.
+
+The ultraconservative wing is a “dark cloud” hovering over the state GOP, a high-ranking Republican operative who runs campaigns told NJ Advance Media. Their hateful rhetoric is viewed as a necessary evil that party officials refuse to confront – and sometimes even embrace — out of fear of losing support in the Trump era, said the official, who requested anonymity because they are not authorized to speak for the party.
+
+It’s a “coalition of the willing,” said Jon Lewis, an extremism expert at George Washington University. 
+
+These far-right organizations are part of a larger plan, a number of political insiders and experts tell NJ Advance Media. They have four distinct objectives: 1. Push the state’s Republican Party to the right, 2. Coalesce support at the grassroots level, 3. Win municipal and county elections and 4. Develop future political candidates for higher office.
+
+Many of the same ultraconservative influencers cross-promote each other’s gatherings on social media and act as dignitaries at those events, delivering speeches and amplifying messaging. 
+
+They are podcasters, political organizers, gubernatorial candidates and deeply connected insiders with direct access to Trump. They are people like Mike Crispi, the charismatic xxx31-year-oldxxx rock star of the group, who received a shoutout from Trump in May at the former president’s Wildwood rally. The well-dressed political activist with a signature raspy voice speaks fast and fervently. His bellicose manner energizes crowds when speaking as the chairman of the America First Republicans of New Jersey and galvanizes listeners of his syndicated podcast, “Mike Crispi Unafraid.” 
+
+In one episode, he barely took a breath between words: “It seems like the illegal vermin — I keep calling them vermin, and people keep saying, ‘Oh, that’s racist, it’s this, it’s that.’ But here’s the thing: It couldn’t be any further from reality.” 
+
+Crispi is far from alone. There’s Tim Walsh, Mike Casey and Mike Byrne — members of the America First Republicans of New Jersey. There’s also Ed Durr, the truck driver turned GOP sensation who ousted state Senate President Stephen Sweeney from the Legislature in 2021, NJ1st podcaster Ryan McDonald and New York attorney Paul Ingrassia, a Substack writer and member of the New York Young Republican Club. Then there’s Cynthia Hughes, a New Jersey mother and adoptive aunt of a Capitol rioter who has raised millions for the legal defense of Jan. 6 defendants — and became a Trump favorite in the process.
+
+You’ll also see political operatives like Union County’s Carlos Santos and elected officials like Auth and Englishtown Mayor Daniel Francisco. And you’ll encounter popular 101.5 talk show host Bill Spadea, an election denier and COVID vaccine conspiracy theorist who's running for governor in 2025.
+”The biggest influencers, the ones with the massive platforms, are sometimes politicians, and often people with political commentary platforms,” said Elizabeth Neumann, the former assistant secretary for counterterrorism and threat prevention at the U.S. Department of Homeland Security under Trump. She is now chief strategy officer for Moonshot, a London-based tech company identifying online extremist threats and offering support services to the perpetrators. “And they frequently frame political rhetoric as political conversation and very existential threats.” Some figures, like Auth, appear to be cynically chumming for support in the most extreme elements of the party. Others, like Ingrassia, are true believers. He is tied to Laura Loomer, a self-described white nationalist and Islamophobe, and has promoted figures like Jack Posobiec, who has collaborated with white supremacists, according to the Southern Poverty Law Center. Then there are opportunists like Santos, who reside in the middle: Promoting activists such as Lee Mack — who hatches conspiracy theories, anti-LGBTQ+ messaging and Russian propaganda through his Concerned Citizens of New Jersey group — while distancing himself from them when questioned by NJ Advance Media.
+But the America First Republicans of New Jersey — founded last year by Crispi to engage “grassroots conservatives ahead of the 2024 Election,” according to his website — have the biggest platform. The organization is part of the national America First movement, and its events are sometimes promoted on Telegram by the New Jersey chapter of the Proud Boys. These influencers are reaching tens of thousands of people, despite rhetoric filled with conspiracy theories, election denial and hate speech targeting minority groups. “These guys all sit in the same cesspool. There's never more than one or two degrees of separation,” Lewis said. 
+    </p>
+</div>
+
+<style>
+    div{
+        color: white;
+        width: 80%;
+        margin: 10px 10%;
+    }
+</style>
