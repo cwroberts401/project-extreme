@@ -1,6 +1,10 @@
 <script>
     import info1 from '$lib/assets/Frame 7.png';
+    import info2 from '$lib/assets/Frame 6.png';
     let person1, person2, line;
+
+    let moreInfo = null;
+    let showMoreInfo = false;
   
     function calculateLine() {
       const rect1 = person1.getBoundingClientRect();
@@ -29,6 +33,16 @@
     function hideLine() {
       line.style.display = 'none';
     }
+
+    const handleClick = (person) => {
+        moreInfo = person;
+        showMoreInfo = !showMoreInfo;
+    }
+
+    const handleClose = () => {
+        showMoreInfo = !showMoreInfo;
+        moreInfo = null;
+    }
   </script>
   
   <!-- The line element -->
@@ -41,7 +55,13 @@
     <p>Democrats are grooming your children, they said. The 2020 election was stolen. Liberals will do it again in November if you don’t serve as poll monitors.</p>
     <p>Then a polished man in a fashionable blue suit and designer, black-rimmed glasses strolled to the front of the spacious room that Friday evening in March. He apologized for being tired before launching into his key issue.</p>
     <p>Migrants. Specifically, the “vermin” and “slime” coming into the United States.</p>
-    <p>“They're bringing in more than crime,” <span class="highlight" bind:this={person1} on:click={showLine} on:mouseleave={hideLine}>Dr. Stephen Soloway</span>, a rheumatologist based in Vineland and a longtime friend of former President Donald Trump, told the audience. “They're bringing in more than rape. They're bringing in something invisible. They're bringing in diseases.”</p>
+    <p>“They're bringing in more than crime,” <span class="highlight" bind:this={person1} on:click={() => handleClick("per1")} on:mouseenter={showLine} on:mouseleave={hideLine}>Dr. Stephen Soloway</span>, a rheumatologist based in Vineland and a longtime friend of former President Donald Trump, told the audience. “They're bringing in more than rape. They're bringing in something invisible. They're bringing in diseases.”</p>
+    {#if showMoreInfo && moreInfo === "per1"}
+        <div class="more-modal">
+        <button on:click={handleClose}>X</button>
+        <img alt="more info" src={info2}/>
+        </div>
+    {/if}
     <p>A dozen or so applauded Soloway, the keynote speaker, as state <span class="highlight"  bind:this={person2} on:mouseenter={showLine} on:mouseleave={hideLine}>Assemblyman Bob Auth</span> (R-Bergen) and others looked on from the back.</p>
     <p>The event — billed as a “Hands Off My Ballot” rally and open to the public — was hosted by two influential organizations: the America First Republicans of New Jersey and the New Jersey Project, a parental rights collective named an anti-government organization this year by the Southern Poverty Law Center.</p>
     <p>These grassroots groups are among a loose confederation of far-right influencers and organizations that have somehow found an audience in New Jersey, long celebrated as a left-leaning bastion of pragmatic politics. And they’ve done it using hate speech, bigotry and rage.</p>
@@ -73,6 +93,13 @@
       background-color: red;
       position: relative;
       cursor: pointer;
+    }
+
+    .more-modal {
+        background-color: white;
+        width: 70%;
+        margin: 20px auto;
+        border-radius: 10px;
     }
 
     img {

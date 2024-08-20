@@ -1,3 +1,7 @@
+<script>
+    import info1 from '$lib/assets/crispi-txt.png';
+</script>
+
 <div>
     <h3> Section 2 </h3>
     <h4> A Web of XXX </h4>
@@ -6,6 +10,7 @@
         <p>American flags flapped in the March wind next to Trump flags as more than 200 people descended on the Jersey Shore community for another “Hands Off My Ballot” rally.</p>
         <p>Congressional candidates and local officials mingled on the blacktop. Children chased each other as their parents sat at picnic tables. People with clipboards collected signatures to ensure Trump’s name would be on the New Jersey primary ballot. And merchandise tables sold Trump buttons, shirts and hats.</p>
         <p>Crispi, wearing a white shirt and dark suit jacket, then stepped to the microphone.</p>
+        <img alt="quote" src={info1}/>
         <p>He stoked the crowd by telling them they were “second-class citizens in our own country.”</p>
         <p>“The illegal immigrants (are) coming in, and they’re not migrants, they’re illegals, coming into this country, savagely harming people,” said Crispi, who in 2022 ran unsuccessfully for Congress in the 4th District.</p>
         <p>He would stand shoulder-to-shoulder with Ingrassia and other America First activists like McDonald — who has called the Proud Boys “patriots” on his Rumble page. Casey then gave a shout-out to McDonald and Hughes, whose nonprofit, Patriot Freedom Project, provides funds for those incarcerated for their roles in the Capitol riot.</p>
@@ -44,9 +49,31 @@
 </div>
 
 <style>
+    /* Style for the highlighted spans */
+    .highlight {
+      background-color: red;
+      position: relative;
+      cursor: pointer;
+    }
+
+    img {
+        max-width: 100%;
+    }
+  
+    /* Style for the line */
+    .line {
+      position: absolute;
+      height: 2px;
+      background-color: red;
+      z-index: 10;
+      display: none;
+    }
+  
+    /* Styling for the container */
     div {
-        color: white;
-        width: 80%;
-        margin: 10px 10%;
+      color: white;
+      width: 80%;
+      margin: 40px 10%;
+      font-family: 'Courier New', Courier, monospace;
     }
 </style>
