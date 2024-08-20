@@ -5,7 +5,7 @@
 </svelte:head>
 
 <script>
-
+import imm1 from '$lib/assets/Untitled-1.png';
 </script>
 
 
@@ -13,9 +13,17 @@
     <div class="title-line"><h2>INSIDE THE</h2><div class="white-bar"></div></div>
     <div class="title-line"><h2 style="color:red">MAINSTREAMING OF HATE.</h2><div class="red-bar"></div></div>
     <div class="title-line"><h2>HOW TOXIC</h2><div class="white-bar"></div></div>
-    <div class="title-line"><h2 style="color:red">INFULENCERS ARE</h2><div class="red-bar"></div></div>
-    <div class="title-line"><h2>PUSHING N.J. POLITICS</h2><div class="white-bar"></div></div>
-    <div class="title-line"><h2 style="color:red">TO THE FAR RIGHT</h2><div class="red-bar"></div></div>
+    <div class="half">
+        <div class="txt-half">
+            <div class="title-line"><h2 style="color:red">INFULENCERS ARE</h2><div class="red-bar"></div></div>
+            <div class="title-line"><h2>PUSHING N.J. POLITICS</h2><div class="white-bar"></div></div>
+            <div class="title-line"><h2 style="color:red">TO THE FAR RIGHT</h2><div class="red-bar"></div></div>
+        </div>
+        <div class="txt-half">
+            <img alt="faces" src={imm1}/>
+        </div>
+    </div>
+    
 </div>
 
 <style>
@@ -25,6 +33,21 @@
         width: 90vw;
         display: flex;
         margin: 20px 5vw 0 5vw;
+    }
+
+    .txt-half{
+        width: 50%;
+        max-width: 50%;
+    }
+    .half {
+        display: flex;
+    }
+
+    img {
+        max-width: 100%;
+        height: 164px;
+        margin: 20px 3vw 20px 0;
+        float: right;
     }
 
     .title-line > h2 {
