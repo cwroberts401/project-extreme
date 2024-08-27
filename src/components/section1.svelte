@@ -1,68 +1,46 @@
 <script>
-    import info1 from '$lib/assets/Frame 7.png';
+    import info1 from '$lib/assets/ch-1-chart.png';
     import info2 from '$lib/assets/Frame 6.png';
-    let person1, person2, line;
-
-    let moreInfo = null;
-    let showMoreInfo = false;
-  
-    function calculateLine() {
-      const rect1 = person1.getBoundingClientRect();
-      const rect2 = person2.getBoundingClientRect();
-  
-      const x1 = rect1.left + rect1.width / 2;
-      const y1 = rect1.top + window.scrollY + rect1.height / 2;
-      const x2 = rect2.left + rect2.width / 2;
-      const y2 = rect2.top + window.scrollY + rect2.height / 2;
-  
-      const length = Math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2);
-      const angle = Math.atan2(y2 - y1, x2 - x1) * (180 / Math.PI);
-  
-      line.style.width = `${length}px`;
-      line.style.transform = `rotate(${angle}deg)`;
-      line.style.transformOrigin = '0 0';
-      line.style.top = `${y1}px`;
-      line.style.left = `${x1}px`;
-    }
-  
-    function showLine() {
-      calculateLine();
-      line.style.display = 'block';
-    }
-  
-    function hideLine() {
-      line.style.display = 'none';
-    }
-
-    const handleClick = (person) => {
-        moreInfo = person;
-        showMoreInfo = !showMoreInfo;
-    }
-
-    const handleClose = () => {
-        showMoreInfo = !showMoreInfo;
-        moreInfo = null;
-    }
+    import chIco from '$lib/assets/ch-icon.gif';
+    import TreeModal from './info-modal.svelte';
+    
   </script>
-  
-  <!-- The line element -->
-  <div class="line" bind:this={line}></div>
     
 <div>
+  <img class="ch-icon" src={chIco} alt="republician elephant"/>
+  <h3> Section 1 </h3>
+  <h4> Placeholder Title </h4>
+    <div>
     <p>The meeting was an unsettling buffet of conspiracy and grievance.</p>
     <p>They had gathered at a former daycare center, tucked on a rural road in the Pine Barrens. American flags and Trump signs hung on off-white walls. A fluorescent yellow placard, bearing a rhinoceros silhouette, leaned against the lectern. It read, “Please stop feeding the RINOS” — Republicans In Name Only.</p>
     <p>Four speakers then took turns riling up the Shamong audience of 40 or so, seated in mismatched metal folding chairs.</p>
     <p>Democrats are grooming your children, they said. The 2020 election was stolen. Liberals will do it again in November if you don’t serve as poll monitors.</p>
     <p>Then a polished man in a fashionable blue suit and designer, black-rimmed glasses strolled to the front of the spacious room that Friday evening in March. He apologized for being tired before launching into his key issue.</p>
     <p>Migrants. Specifically, the “vermin” and “slime” coming into the United States.</p>
-    <p>“They're bringing in more than crime,” <span class="highlight" bind:this={person1} on:click={() => handleClick("per1")} on:mouseenter={showLine} on:mouseleave={hideLine}>Dr. Stephen Soloway</span>, a rheumatologist based in Vineland and a longtime friend of former President Donald Trump, told the audience. “They're bringing in more than rape. They're bringing in something invisible. They're bringing in diseases.”</p>
-    {#if showMoreInfo && moreInfo === "per1"}
-        <div class="more-modal">
-        <button on:click={handleClose}>X</button>
-        <img alt="more info" src={info2}/>
-        </div>
-    {/if}
-    <p>A dozen or so applauded Soloway, the keynote speaker, as state <span class="highlight"  bind:this={person2} on:mouseenter={showLine} on:mouseleave={hideLine}>Assemblyman Bob Auth</span> (R-Bergen) and others looked on from the back.</p>
+    <p id="soloway">“They're bringing in more than crime,” 
+      <TreeModal 
+      name={"Dr. Stephen Soloway"}
+      facts={["Longtime Trump friend", "NJ DOctor"]}
+      treeTop={[{ name: "Americas First Republican Party", link: null }]} 
+      treeMid={[{ name: "Donald Trump", link: null, main: false }, { name: "Dr. Stephen Soloway", link: null, main: true }, { name: "Rep Bob Auth", link: "#auth", main: false }]} 
+      treeBottom={[]}
+    >
+      <span class="highlight">Dr. Stephen Soloway</span>
+    </TreeModal> 
+      , a rheumatologist based in Vineland and a longtime friend of former President Donald Trump, told the audience. “They're bringing in more than rape. They're bringing in something invisible. They're bringing in diseases.”</p>
+    <p id="auth">
+      A dozen or so applauded Soloway, the keynote speaker, as state 
+      <TreeModal 
+        name={"Bob Auth"}
+        facts={["fact 1", "fact 2"]}
+        treeTop={[{ name: "Americas First Republican Party", link: null }]} 
+        treeMid={[{ name: "Rep Bob Auth", link: null, main: true }, { name: "Dr. Stephen Soloway", link: "#soloway", main: false }]} 
+        treeBottom={[]}
+      >
+        <span class="highlight">Assemblyman Bob Auth</span>
+      </TreeModal> 
+      (R-Bergen) and others looked on from the back.
+    </p>    
     <p>The event — billed as a “Hands Off My Ballot” rally and open to the public — was hosted by two influential organizations: the America First Republicans of New Jersey and the New Jersey Project, a parental rights collective named an anti-government organization this year by the Southern Poverty Law Center.</p>
     <p>These grassroots groups are among a loose confederation of far-right influencers and organizations that have somehow found an audience in New Jersey, long celebrated as a left-leaning bastion of pragmatic politics. And they’ve done it using hate speech, bigotry and rage.</p>
     <p>“Even in New Jersey, they are latching on to these populous talking points of: ‘It’s the other guy.’ It’s the fear of the other,” said a state Democratic official not authorized to speak for the party. “It’s a tale as old as time.”</p>
@@ -85,10 +63,15 @@
     <p>“These guys all sit in the same cesspool. There's never more than one or two degrees of separation,” Lewis said.</p>
     <p>But they’re not operating in Appalachia. Or the Mississippi Delta. Or the lonely, wind-swept Plains.</p>
     <p>They’re thriving here in New Jersey.</p>
+  </div>
 </div>
 
 <style>
     /* Style for the highlighted spans */
+    .info-modal{
+      display: flex;
+      color: black;
+    }
     .highlight {
       background-color: red;
       position: relative;
@@ -99,7 +82,7 @@
         background-color: white;
         width: 70%;
         margin: 20px auto;
-        border-radius: 10px;
+        color: black;
     }
 
     img {
@@ -121,5 +104,25 @@
       width: 80%;
       margin: 40px 10%;
       font-family: 'Courier New', Courier, monospace;
+    }
+
+    p {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 13pt;
+      line-height: 18pt;
+    }
+
+    h3 {
+      margin: 0;
+    }
+
+    h4 {
+      margin: 0 0 20px 0;
+    }
+
+    .ch-icon{
+      width: 75px;
+      height: auto;
+
     }
   </style>

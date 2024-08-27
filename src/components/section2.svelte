@@ -1,10 +1,14 @@
 <script>
     import info1 from '$lib/assets/crispi-txt.png';
+    import chIco from '$lib/assets/ch-icon.gif';
+    import image1 from '$lib/assets/ch-2-chart.png';
 </script>
 
 <div>
+    <img class="ch-icon" src={chIco} alt="republician elephant"/>
     <h3> Section 2 </h3>
     <h4> A Web of XXX </h4>
+    
     <div>
         <p>A large tent shaded the courtyard behind McDonagh’s Pub & Restaurant in Keyport.</p>
         <p>American flags flapped in the March wind next to Trump flags as more than 200 people descended on the Jersey Shore community for another “Hands Off My Ballot” rally.</p>
@@ -22,6 +26,7 @@
         <p>Statistics don’t bear out Crispi’s claims – nor the accusations of others mentioned in this reporting – that migrants and others from protected classes are responsible for jumps in violent crime or diseases.</p>
         <p>But everyone gathered agrees there’s a growing market in the state for right-wing views in straight-talking New Jersey. In fact, these advocates believe they might even turn the state red this November for the first time in decades. Even if that’s ambitious, these influencers are slowly recasting the New Jersey GOP by roiling conservative corners of the state – especially in blue-collar communities in Northwest Jersey, along the Shore and throughout South Jersey – rallying voters on a grassroots level and pressuring establishment Republicans further right.</p>
         <p>“What we do here today,” Crispi said, “will change the course of history. Because New Jersey goes red — landslide, undeniable momentum — and that's how we're going to make America great again.”</p>
+        <img src={image1}/>
         <p>The crowd — which included Alexandria Township Committeeman Tom Hudanish, Old Bridge Councilman Darin Accettulli and Francisco, the former executive director of Project Veritas — erupted in applause.</p>
         <p>Some officials doubt the influence of these figures in the Garden State, one of the nation’s most diverse and home to Ellis Island. They mention that ultraconservatives are vastly outnumbered here. They point out that far-right candidates have repeatedly lost in statewide races, and voters haven’t elected a Republican senator since 1972 or supported a GOP presidential candidate since 1988.</p>
         <p>“In New Jersey, that doesn't exist,” former Democratic governor and recently retired state Sen. Richard Codey told NJ Advance Media.</p>
@@ -49,31 +54,62 @@
 </div>
 
 <style>
-    /* Style for the highlighted spans */
-    .highlight {
-      background-color: red;
-      position: relative;
-      cursor: pointer;
-    }
+  /* Style for the highlighted spans */
+  .info-modal{
+    display: flex;
+    color: black;
+  }
+  .highlight {
+    background-color: red;
+    position: relative;
+    cursor: pointer;
+  }
 
-    img {
-        max-width: 100%;
-    }
-  
-    /* Style for the line */
-    .line {
-      position: absolute;
-      height: 2px;
-      background-color: red;
-      z-index: 10;
-      display: none;
-    }
-  
-    /* Styling for the container */
-    div {
-      color: white;
-      width: 80%;
-      margin: 40px 10%;
-      font-family: 'Courier New', Courier, monospace;
-    }
+  .more-modal {
+      background-color: white;
+      width: 70%;
+      margin: 20px auto;
+      color: black;
+  }
+
+  img {
+      max-width: 100%;
+  }
+
+  /* Style for the line */
+  .line {
+    position: absolute;
+    height: 2px;
+    background-color: red;
+    z-index: 10;
+    display: none;
+  }
+
+  /* Styling for the container */
+  div {
+    color: white;
+    width: 80%;
+    margin: 40px 10%;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    line-height: 18pt;
+  }
+
+  h3 {
+    margin: 0;
+  }
+
+  h4 {
+    margin: 0 0 20px 0;
+  }
+
+  .ch-icon{
+    width: 75px;
+    height: auto;
+
+  }
 </style>

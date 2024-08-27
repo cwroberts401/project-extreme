@@ -1,4 +1,10 @@
+<script>
+    import chIco from '$lib/assets/ch-icon.gif';
+    import image1 from '$lib/assets/nj-outline.gif'
+</script>
+
 <div>
+    <img class="ch-icon" src={chIco} alt="republician elephant"/>
     <h3>Section 5</h3>
     <h4>N.J. turning red?</h4>
     <div>
@@ -11,6 +17,7 @@
         <p>Durr knew his audience. He drove them to their feet.</p>
         <p>He had been a feel-good story in South Jersey, spending just $2,500 to win the state Senate primary and upset Sweeney in 2021. But soon after, he was apologizing for previous social media messages, such as “A woman does have a choice! Keep her legs closed.” and "Mohammed was a pedophile! Islam is a false religion!”</p>
         <p>Now he’s running for governor.</p>
+        <img src={image1}>
         <p>More far-right candidates like Durr might soon be coming to New Jersey, experts say.</p>
         <p>The long-held county-line system — allowing party chairs to give candidates preferential placement on primary election ballots — is expected to be ruled unconstitutional after it was challenged in the 2023 Democratic Senate primary. Grassroots groups (right and left) view it as a victory for democracy, removing an enormous advantage fueled by favoritism and patronage.</p>
         <p>But the county-line system also keeps “extreme candidates” from gaining political power, according to Rasmussen, the Rebovich Institute director.</p>
@@ -40,9 +47,62 @@
 </div>
 
 <style>
-    div {
-        color: white;
-        width: 80%;
-        margin: 10px 10%;
+    /* Style for the highlighted spans */
+    .info-modal{
+      display: flex;
+      color: black;
     }
-</style>
+    .highlight {
+      background-color: red;
+      position: relative;
+      cursor: pointer;
+    }
+  
+    .more-modal {
+        background-color: white;
+        width: 70%;
+        margin: 20px auto;
+        color: black;
+    }
+  
+    img {
+        max-width: 100%;
+    }
+  
+    /* Style for the line */
+    .line {
+      position: absolute;
+      height: 2px;
+      background-color: red;
+      z-index: 10;
+      display: none;
+    }
+  
+    /* Styling for the container */
+    div {
+      color: white;
+      width: 80%;
+      margin: 40px 10%;
+      font-family: 'Courier New', Courier, monospace;
+    }
+  
+    p {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 13pt;
+      line-height: 18pt;
+    }
+  
+    h3 {
+      margin: 0;
+    }
+  
+    h4 {
+      margin: 0 0 20px 0;
+    }
+  
+    .ch-icon{
+      width: 75px;
+      height: auto;
+  
+    }
+  </style>

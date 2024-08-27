@@ -1,10 +1,17 @@
+<script>
+    import chIco from '$lib/assets/ch-icon.gif';
+    import image1 from '$lib/assets/cells.gif';
+</script>
+
 <div>
+    <img class="ch-icon" src={chIco} alt="republician elephant"/>
     <h3>Section 4</h3>
     <h4>Screaming in digital</h4>
     <div>
         <p>Gatherings are for the converted. But social media, Internet forums, podcasts and livestreams are the vehicles to reach new audiences and maintain continuous contact with the devout.</p>
         <p>In the past, most political radicalization occurred through direct, in-person contact. Meetings. A handshake and a pamphlet. Or maybe introducing a friend of a friend. But these days, it happens digitally, according to Neumann, the former Homeland Security assistant secretary for counterterrorism and threat prevention.</p>
         <p>“That's how you network with people,” she said.</p>
+        <img src={image1}>
         <p>Live streaming service Twitch, video sharing site Rumble and instant messaging apps Telegram and Discord are popular platforms to spread ultraconservative messaging. They are especially used to target young people, as are many gaming chat functions, according to experts. Facebook and Gab, a social networking service, are also popular among the right.</p>
         <p>Their messaging often involves attacks on “others,” our investigation found: People of color. Jews. The trans community. Scapegoats worked for Nazi Germany and Muslim fundamentalists. It remains a powerful tool in New Jersey in 2024, experts say.</p>
         <p>Moonshot, the company identifying extremist threats and offering support services, conducted research comparing online trends in 2022 with FBI hate crime data. It found a correlation between threatening antisemitic, anti-Black and anti-migrant language and an increase in hate crimes against those groups. Whether the connection is causal is unknown.</p>
@@ -29,9 +36,62 @@
 </div>
 
 <style>
-    div {
-        color: white;
-        width: 80%;
-        margin: 10px 10%;
+    /* Style for the highlighted spans */
+    .info-modal{
+      display: flex;
+      color: black;
     }
-</style>
+    .highlight {
+      background-color: red;
+      position: relative;
+      cursor: pointer;
+    }
+  
+    .more-modal {
+        background-color: white;
+        width: 70%;
+        margin: 20px auto;
+        color: black;
+    }
+  
+    img {
+        max-width: 100%;
+    }
+  
+    /* Style for the line */
+    .line {
+      position: absolute;
+      height: 2px;
+      background-color: red;
+      z-index: 10;
+      display: none;
+    }
+  
+    /* Styling for the container */
+    div {
+      color: white;
+      width: 80%;
+      margin: 40px 10%;
+      font-family: 'Courier New', Courier, monospace;
+    }
+  
+    p {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 13pt;
+      line-height: 18pt;
+    }
+  
+    h3 {
+      margin: 0;
+    }
+  
+    h4 {
+      margin: 0 0 20px 0;
+    }
+  
+    .ch-icon{
+      width: 75px;
+      height: auto;
+  
+    }
+  </style>

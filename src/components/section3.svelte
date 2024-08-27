@@ -1,4 +1,9 @@
+<script>
+    import chIco from '$lib/assets/ch-icon.gif';
+</script>
+
 <div>
+    <img class="ch-icon" src={chIco} alt="republician elephant"/>
     <h3>Section 3</h3>
     <h4>Words = Violence</h4>
     <div>
@@ -49,9 +54,62 @@
 </div>
 
 <style>
-    div {
-        color: white;
-        width: 80%;
-        margin: 10px 10%;
+    /* Style for the highlighted spans */
+    .info-modal{
+      display: flex;
+      color: black;
     }
-</style>
+    .highlight {
+      background-color: red;
+      position: relative;
+      cursor: pointer;
+    }
+  
+    .more-modal {
+        background-color: white;
+        width: 70%;
+        margin: 20px auto;
+        color: black;
+    }
+  
+    img {
+        max-width: 100%;
+    }
+  
+    /* Style for the line */
+    .line {
+      position: absolute;
+      height: 2px;
+      background-color: red;
+      z-index: 10;
+      display: none;
+    }
+  
+    /* Styling for the container */
+    div {
+      color: white;
+      width: 80%;
+      margin: 40px 10%;
+      font-family: 'Courier New', Courier, monospace;
+    }
+  
+    p {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 13pt;
+      line-height: 18pt;
+    }
+  
+    h3 {
+      margin: 0;
+    }
+  
+    h4 {
+      margin: 0 0 20px 0;
+    }
+  
+    .ch-icon{
+      width: 75px;
+      height: auto;
+  
+    }
+  </style>

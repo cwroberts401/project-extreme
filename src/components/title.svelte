@@ -5,10 +5,10 @@
 </svelte:head>
 
 <script>
-import imm1 from '$lib/assets/Untitled-1.png';
+    import imm1 from '$lib/assets/header-flag.gif';
 </script>
 
-
+<!--
 <div class="title-bg">
     <div class="title-line"><h2>INSIDE THE</h2><div class="white-bar"></div></div>
     <div class="title-line"><h2 style="color:red">MAINSTREAMING OF HATE.</h2><div class="red-bar"></div></div>
@@ -24,11 +24,35 @@ import imm1 from '$lib/assets/Untitled-1.png';
         </div>
     </div>
     
+</div> -->
+<div class="container">
+    <img alt="faces" src={imm1}/>
+</div>
+<div>
+    <h1>
+        Inside the Mainstreaming of Hate. <br> How Toxic Infulencers are Pushing N.J. Politics to the Far Right
+    </h1>
 </div>
 
 <style>
+    .container {
+        display: flex;
+        justify-items: center;
+    }
 
-    .title-line{
+    .wrapper {
+        margin-top: 5px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .icon{
+        max-width: 130px;
+        height: auto;
+    }
+
+.title-line{
         max-width: 90vw;
         width: 90vw;
         display: flex;
@@ -44,10 +68,9 @@ import imm1 from '$lib/assets/Untitled-1.png';
     }
 
     img {
+        width: 1000px;
         max-width: 100%;
-        height: 164px;
-        margin: 20px 3vw 20px 0;
-        float: right;
+        margin: 10px auto;
     }
 
     .title-line > h2 {
@@ -58,6 +81,15 @@ import imm1 from '$lib/assets/Untitled-1.png';
         font-size: 50px;
         margin: 2px 0 0 0;
         line-height: 40px;
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: -10px;
     }
 
     .white-bar{

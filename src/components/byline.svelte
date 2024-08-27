@@ -1,5 +1,11 @@
+<script>
+    import imm1 from '$lib/assets/extreme-logo.png';
+</script>
+
+<div class="wrapper">
+    <img class="icon" src={imm1} alt="Project Extreme Part 1"/>
+</div>
 <div>
-    <h3 class="extreme">Project Extreme - Part I</h3>
     <div class="by-line">
         <h4>By Spencer Kent for NJ Advance Media</h4>
         <h5>XX September 2024</h5>
@@ -7,9 +13,21 @@
 </div>
 
 <style>
+
+    .wrapper {
+        margin-top: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
     span {
         color: white;
         text-align: center;
+    }
+
+    .icon{
+        max-width: 200px;
+        height: auto;
     }
 
     .extreme {

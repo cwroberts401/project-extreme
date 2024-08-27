@@ -1,5 +1,5 @@
 <script>
-    import image1 from '$lib/assets/interactive-img.png';
+    import image1 from '$lib/assets/ch-1-main.gif';
 
     let answerSelected = false;
     let selectedAnswer = null;

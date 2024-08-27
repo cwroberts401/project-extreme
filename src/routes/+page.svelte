@@ -11,15 +11,22 @@
     import Chart from "../components/chart.svelte";
     import Threed from "../components/threed.svelte";
     import Interactive1 from "../components/interactive1.svelte";
+    import Interactive3 from "../components/interactive3.svelte";
+    import Interactive2 from "../components/interactive2.svelte";
+    import InfoModal from "../components/info-modal.svelte";
 </script>
 
 <Title/>
 <Byline/>
 
     <div>  
+        <InfoModal/>
         <Section1/>
+
+        <!--<Interactive2/>-->
         <Interactive1/>
         <Section2/>
+        <Interactive3/>
         <Section3/>
         <Section4/>
         <Section5/>
@@ -28,16 +35,6 @@
     </div>
 
 <style>
-    .container{
-        display: flex;
-    }
-    
-    .text{
-        width: 70%;
-    }
-    .graph{
-        width: 30%;
-        background-color: white;
-    }
+
 </style>
 
