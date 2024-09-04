@@ -1,6 +1,6 @@
 <script>
-    import chIco from '$lib/assets/ch-icon.gif';
-    import image1 from '$lib/assets/nj-outline.gif'
+    import chIco from '$lib/assets/rino.gif';
+    import image1 from '$lib/assets/nj-outline.gif';
 </script>
 
 <div>

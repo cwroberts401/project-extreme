@@ -1,7 +1,7 @@
 <script>
     import info1 from '$lib/assets/ch-1-chart.png';
     import info2 from '$lib/assets/Frame 6.png';
-    import chIco from '$lib/assets/ch-icon.gif';
+    import chIco from '$lib/assets/rino.gif';
     import TreeModal from './info-modal.svelte';
     
   </script>
@@ -20,7 +20,7 @@
     <p id="soloway">“They're bringing in more than crime,” 
       <TreeModal 
       name={"Dr. Stephen Soloway"}
-      facts={["Longtime Trump friend", "NJ DOctor"]}
+      facts={["Vineland-based rheumatologist", "Author of “Medical Politics: How to Protect Yourself from Bad Doctors, Insurance Companies, and Big Government” and “Bad Medicine: The Horrors of American Healthcare”", "Appointed to the president's Council on Sports, Fitness and Nutrition by former President Trump"]}
       treeTop={[{ name: "Americas First Republican Party", link: null }]} 
       treeMid={[{ name: "Donald Trump", link: null, main: false }, { name: "Dr. Stephen Soloway", link: null, main: true }, { name: "Rep Bob Auth", link: "#auth", main: false }]} 
       treeBottom={[]}
@@ -28,19 +28,7 @@
       <span class="highlight">Dr. Stephen Soloway</span>
     </TreeModal> 
       , a rheumatologist based in Vineland and a longtime friend of former President Donald Trump, told the audience. “They're bringing in more than rape. They're bringing in something invisible. They're bringing in diseases.”</p>
-    <p id="auth">
-      A dozen or so applauded Soloway, the keynote speaker, as state 
-      <TreeModal 
-        name={"Bob Auth"}
-        facts={["fact 1", "fact 2"]}
-        treeTop={[{ name: "Americas First Republican Party", link: null }]} 
-        treeMid={[{ name: "Rep Bob Auth", link: null, main: true }, { name: "Dr. Stephen Soloway", link: "#soloway", main: false }]} 
-        treeBottom={[]}
-      >
-        <span class="highlight">Assemblyman Bob Auth</span>
-      </TreeModal> 
-      (R-Bergen) and others looked on from the back.
-    </p>    
+    <p>A dozen or so applauded Soloway, the keynote speaker, as state Assemblyman Bob Auth (R-Bergen) and others looked on from the back.</p>    
     <p>The event — billed as a “Hands Off My Ballot” rally and open to the public — was hosted by two influential organizations: the America First Republicans of New Jersey and the New Jersey Project, a parental rights collective named an anti-government organization this year by the Southern Poverty Law Center.</p>
     <p>These grassroots groups are among a loose confederation of far-right influencers and organizations that have somehow found an audience in New Jersey, long celebrated as a left-leaning bastion of pragmatic politics. And they’ve done it using hate speech, bigotry and rage.</p>
     <p>“Even in New Jersey, they are latching on to these populous talking points of: ‘It’s the other guy.’ It’s the fear of the other,” said a state Democratic official not authorized to speak for the party. “It’s a tale as old as time.”</p>
@@ -52,13 +40,53 @@
     <p>It’s a “coalition of the willing,” said Jon Lewis, an extremism expert at George Washington University.</p>
     <p>These far-right organizations are part of a larger plan, a number of political insiders and experts tell NJ Advance Media. They have four distinct objectives: 1. Push the state’s Republican Party to the right, 2. Coalesce support at the grassroots level, 3. Win municipal and county elections and 4. Develop future political candidates for higher office.</p>
     <p>Many of the same ultraconservative influencers cross-promote each other’s gatherings on social media and act as dignitaries at those events, delivering speeches and amplifying messaging.</p>
-    <p>They are podcasters, political organizers, gubernatorial candidates and deeply connected insiders with direct access to Trump. They are people like <span class="highlight">Mike Crispi</span>, the charismatic xxx31-year-oldxxx rock star of the group, who received a shoutout from Trump in May at the former president’s Wildwood rally. The well-dressed political activist with a signature raspy voice speaks fast and fervently. His bellicose manner energizes crowds when speaking as the chairman of the America First Republicans of New Jersey and galvanizes listeners of his syndicated podcast, “Mike Crispi Unafraid.”</p>
+    <p id="crispi">They are podcasters, political organizers, gubernatorial candidates and deeply connected insiders with direct access to Trump. They are people like
+      <TreeModal 
+      name={"Mike Crispi"}
+      facts={["Failed congressional candidate", "Host of “Mike Crispi Unafraid”", "Chairman of the America First Republicans of New Jersey"]}
+      treeTop={[{ name: "Americas First Republican Party", link: null }]} 
+      treeMid={[{ name: "Mike Crispi", link: null, main: true }, { name: "Dr. Stephen Soloway", link: "#soloway", main: false }]} 
+      treeBottom={[]}
+    >
+      <span class="highlight">Mike Crispi</span>
+    </TreeModal>
+    , the charismatic xxx31-year-oldxxx rock star of the group, who received a shoutout from Trump in May at the former president’s Wildwood rally. The well-dressed political activist with a signature raspy voice speaks fast and fervently. His bellicose manner energizes crowds when speaking as the chairman of the America First Republicans of New Jersey and galvanizes listeners of his syndicated podcast, “Mike Crispi Unafraid.”</p>
     <p>In one episode, he barely took a breath between words: “It seems like the illegal vermin — I keep calling them vermin, and people keep saying, ‘Oh, that’s racist, it’s this, it’s that.’ But here’s the thing: It couldn’t be any further from reality.”</p>
-    <p>But Crispi is far from alone. There’s Tim Walsh, Mike Casey and Mike Byrne — members of the America First Republicans of New Jersey. There’s also Ed Durr, the truck driver turned GOP sensation who ousted state Senate President Stephen Sweeney from the Legislature in 2021, NJ1st podcaster Ryan McDonald and New York attorney Paul Ingrassia, a Substack writer and member of the New York Young Republican Club. Then there’s Cynthia Hughes, a New Jersey mother and adoptive aunt of a U.S. Capitol rioter who has raised millions for the legal defense of Jan. 6 defendants — and become a Trump favorite in the process.</p>
-    <p>You’ll also see political operatives like Union County Republican Party chair Carlos Santos and elected officials like Auth and Englishtown Mayor Daniel Francisco. And you’ll encounter popular 101.5 talk show host Bill Spadea, an election denier and COVID vaccine conspiracy theorist who's running for governor in 2025.</p>
+    <p id="Hughes">But Crispi is far from alone. There’s Tim Walsh, Mike Casey and Mike Byrne — members of the America First Republicans of New Jersey. There’s also <span>Ed Durr</span>, the truck driver turned GOP sensation who ousted state Senate President Stephen Sweeney from the Legislature in 2021, NJ1st podcaster Ryan McDonald and New York attorney Paul Ingrassia, a Substack writer and member of the New York Young Republican Club. Then there’s 
+      <TreeModal 
+      name={"Cynthia Hughes"}
+      facts={["Founder and president of The Hughes-Foundation and the Patriot Freedom Project", "Adoptive aunt of Jan. 6 Capitol rioter Timothy Hale-Cusanelli"]}
+      treeTop={[{ name: "Donald Trump", link: null }]} 
+      treeMid={[{ name: "Cynthia Hughes", link: null, main: true }, { name: "Timothy Hale-Cusanelli", link: null, main: false }]} 
+      treeBottom={[]}
+    >
+      <span class="highlight">Cynthia Hughes</span>
+    </TreeModal>
+      , a New Jersey mother and adoptive aunt of a U.S. Capitol rioter who has raised millions for the legal defense of Jan. 6 defendants — and become a Trump favorite in the process.</p>
+    <p id="spadea">You’ll also see political operatives like Union County Republican Party chair Carlos Santos and elected officials like Auth and Englishtown Mayor Daniel Francisco. And you’ll encounter popular 101.5 talk show host 
+      <TreeModal 
+      name={"Bill Spadea"}
+      facts={["Host of the morning show on New Jersey 101.5 and anchor of 'Chasing News'", "2025 gubernatorial candidate", "Endorsed Mike Crispi"]}
+      treeTop={[{ name: "LINK HERE", link: null }]}   
+      treeMid={[{ name: "Bill Spadea", link: null, main: true }, { name: "LINK HERE", link: null, main: false }]} 
+      treeBottom={[]}
+    >
+      <span>Bill Spadea</span>
+    </TreeModal>
+      , an election denier and COVID vaccine conspiracy theorist who's running for governor in 2025.</p>
     <p>”The biggest influencers, the ones with the massive platforms, are sometimes politicians, and often people with political commentary platforms,” said Elizabeth Neumann, the former assistant secretary for counterterrorism and threat prevention at the U.S. Department of Homeland Security under Trump.</p>
     <p>“And they frequently frame political rhetoric as political conversation and very existential threats.”</p>
-    <p>Some figures, like Auth, appear to be cynically chumming for support in the most extreme elements of the party. Others, like Ingrassia, are true believers. He is tied to Laura Loomer, a self-described white nationalist and Islamophobe, and has promoted figures like Jack Posobiec, who has collaborated with white supremacists, according to the Southern Poverty Law Center. Then there are opportunists like Santos, who promotes activists such as Lee Mack — who hatches conspiracy theories, anti-LGBTQ+ messaging and Russian propaganda through his Concerned Citizens of New Jersey group — while distancing himself from them when questioned by NJ Advance Media.</p>
+    <p id="santos">Some figures, like Auth, appear to be cynically chumming for support in the most extreme elements of the party. Others, like Ingrassia, are true believers. He is tied to Laura Loomer, a self-described white nationalist and Islamophobe, and has promoted figures like Jack Posobiec, who has collaborated with white supremacists, according to the Southern Poverty Law Center. Then there are opportunists like
+      <TreeModal 
+      name={"Carlos Santos"}
+      facts={["Union County Republican chair", "Endorsed by Mike Crispi and Paul Ingrassia"]}
+      treeTop={[{ name: "Concerned Citizens of New Jersey", link: null }]}   
+      treeMid={[{ name: "Carlos Santos", link: null, main: true }, { name: "Lee Mack", link: null, main: false }]} 
+      treeBottom={[]}
+    >  
+      <span class="highlight">Santos</span>
+    </TreeModal>
+      , who promotes activists such as Lee Mack — who hatches conspiracy theories, anti-LGBTQ+ messaging and Russian propaganda through his Concerned Citizens of New Jersey group — while distancing himself from them when questioned by NJ Advance Media.</p>
     <p>These influencers are reaching tens of thousands of people, despite rhetoric filled with conspiracy theories, election denial and hate speech targeting minority groups.</p>
     <p>“These guys all sit in the same cesspool. There's never more than one or two degrees of separation,” Lewis said.</p>
     <p>But they’re not operating in Appalachia. Or the Mississippi Delta. Or the lonely, wind-swept Plains.</p>

@@ -1,5 +1,5 @@
 <script>
-    import chIco from '$lib/assets/ch-icon.gif';
+    import chIco from '$lib/assets/rino.gif';
 </script>
 
 <div>

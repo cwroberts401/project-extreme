@@ -88,10 +88,7 @@
   {#if isModalOpen}
     <div class="info-modal">
       <!-- Title Bar -->
-      <div class="title-bar">
-        <span class="title">{name}</span>
-        <button on:click={handleClose} class="close-button">X</button>
-      </div>
+      <button on:click={handleClose} class="close-button">X</button>
       
       <!-- Tree Top -->
         <div class="person-info">
@@ -169,6 +166,7 @@
         color: black;
         margin-top: 0;
         padding-left: 20px;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     .person-info{
@@ -179,7 +177,7 @@
 
     body {
       background-color: #c0c0c0; /* Light gray background */
-      font-family: 'Times New Roman', Times, serif; /* Windows 95 font */
+      font-family: Arial, Helvetica, sans-serif; /* Windows 95 font */
     }
   
     .dot {
@@ -207,21 +205,19 @@
   
     .info-modal {
       background-color: #e4e4e4; /* Slightly darker gray for the modal background */
-      border: 2px solid #808080; /* Dark gray border */
       display: flex;
       flex-direction: column;
       gap: 20px;
       position: absolute;
-      padding: 0 0 10px 0;
-      width: 80%;
-      right: 10%;
-      box-shadow: inset -2px -2px 0 #ffffff, inset 2px 2px 0 #000000; /* Beveled effect */
+      padding: 30px;
+      width: 70%;
+      right: 15%;
       z-index: 100;
+      border-radius: 20px;
+      opacity: .97;
     }
   
     .title-bar {
-      background-color: #000080; /* Navy blue for classic Windows 95 title bar */
-      color: white;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -239,17 +235,20 @@
     .close-button {
       background-color: #e4e4e4; /* Match modal background */
       border: none;
-      color: black;
+      background-color: red;
+      border-radius: 5px;
+      color: white;
       font-size: 1rem;
       cursor: pointer;
-      padding: 0 8px;
+      padding: 2 8px;
       margin-right: 4px;
-      font-family: 'Times New Roman', Times, serif;
+      font-family: Arial, Helvetica, sans-serif;
+      width: 40px;
     }
   
     .close-button:hover {
-      background-color: #c0c0c0; /* Darker gray on hover */
-      box-shadow: inset -1px -1px 0 #ffffff, inset 1px 1px 0 #000000; /* Beveled button effect */
+      background-color: darkred; /* Darker gray on hover */
+      cursor: pointer;
     }
   
     .tree-top, .tree-mid, .tree-bottom {
@@ -266,7 +265,7 @@
     }
   
     a, span {
-      font-family: 'Times New Roman', Times, serif;
+      font-family: Arial, Helvetica, sans-serif;
     }
   
     a:hover {
@@ -281,7 +280,7 @@
       background-color: #d3d3d3; /* Lighter gray for highlights */
       color: black;
       padding: 2px 4px;
-      font-family: 'Times New Roman', Times, serif;
+      font-family: Arial, Helvetica, sans-serif;
     }
   </style>
   

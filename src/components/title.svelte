@@ -5,7 +5,8 @@
 </svelte:head>
 
 <script>
-    import imm1 from '$lib/assets/header-flag.gif';
+    import imm1 from '$lib/assets/flag v2.gif';
+    import imm2 from '$lib/assets/extreme-logo.png';
 </script>
 
 <!--
@@ -25,13 +26,11 @@
     </div>
     
 </div> -->
+<div class="wrapper">
+    <img class="icon" src={imm2} alt="Project Extreme Part 1"/>
+</div>
 <div class="container">
     <img alt="faces" src={imm1}/>
-</div>
-<div>
-    <h1>
-        Inside the Mainstreaming of Hate. <br> How Toxic Infulencers are Pushing N.J. Politics to the Far Right
-    </h1>
 </div>
 
 <style>
@@ -43,12 +42,11 @@
     .wrapper {
         margin-top: 5px;
         width: 100%;
-        display: flex;
-        justify-content: center;
+        padding-left: 30px;
     }
 
     .icon{
-        max-width: 130px;
+        max-width: 150px;
         height: auto;
     }
 

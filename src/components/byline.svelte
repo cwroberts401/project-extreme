@@ -2,9 +2,9 @@
     import imm1 from '$lib/assets/extreme-logo.png';
 </script>
 
-<div class="wrapper">
+<!--<div class="wrapper">
     <img class="icon" src={imm1} alt="Project Extreme Part 1"/>
-</div>
+</div>-->
 <div>
     <div class="by-line">
         <h4>By Spencer Kent for NJ Advance Media</h4>
