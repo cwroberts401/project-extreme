@@ -5,7 +5,9 @@
     <div class="content">
         <div class="profile">
             <div class="image-container">
+                <!--
                 <img src="SKent.jpg" alt="Spencer Kent headshot"/>
+                -->
             </div>
             <div class="profile-info">
                 <p class="role">Reporter:</p>
@@ -17,7 +19,9 @@
         </div>
         <div class="profile">
             <div class="image-container">
+                <!--
                 <img src="cr-headshot.jpg" alt="Carl Roberts's headshot"/>
+                -->
             </div>
             <div class="profile-info">
                 <p class="role">Developer:</p>
@@ -26,7 +30,9 @@
         </div>
         <div class="profile">
             <div class="image-container">
+                <!--
                 <img src="AMalok.jpg" alt="Andre Malok's headshot"/>
+                -->
             </div>
             <div class="profile-info">
                 <p class="role">Videographer:</p>
@@ -38,7 +44,9 @@
         </div>
         <div class="profile">
             <div class="image-container">
+                <!--
                 <img class="object-cover" src="edMurray.jpg" alt="Michael Mancuso's headshot"/>
+                -->
             </div>
             <div class="profile-info">
                 <p class="role">Photographer:</p>
@@ -47,7 +55,9 @@
         </div>
         <div class="profile">
             <div class="image-container">
+                <!--
                 <img src="jeff.jpg" alt="Jeff Roberts's headshot"/>
+                -->
             </div>
             <div class="profile-info">
                 <p class="role">Editor:</p>
@@ -56,7 +66,9 @@
         </div>
         <div class="profile">
             <div class="image-container">
+                <!--
                 <img class="object-cover" src="Jessica Beym 02.jpg" alt="Jessica Beym's headshot"/>
+                -->
             </div>
             <div class="profile-info">
                 <p class="role">Multimedia Editor:</p>
@@ -65,7 +77,9 @@
         </div>
         <div class="profile">
             <div class="image-container">
+                <!--
                 <img class="object-cover" src="Cardon1.jpg" alt="Libby Cardone's headshot"/>
+                -->
             </div>
             <div class="profile-info">
                 <p class="role">Social Media:</p>
