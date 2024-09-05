@@ -22,6 +22,7 @@
     <div>  
         <InfoModal/>
         <Section1/>
+        <Chart/>
 
         <!--<Interactive2/>-->
         <Interactive1/>
