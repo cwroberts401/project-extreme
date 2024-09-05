@@ -94,7 +94,9 @@
             <p class="article-date">August 16th, 2022</p>  
         </div>
         <div class="article-image">
+            <!--
             <img src="AM2_9280.jpg" alt="A seagull flies across a NJ beach"/>
+        -->
         </div>
     </div>
     <h6 class="subscribe">Our journalism needs your support. Please <a class="subscribe-link" href="https://www.nj.com/subscribe/">subscribe</a> today to NJ.com</h6>
