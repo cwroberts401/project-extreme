@@ -1,6 +1,7 @@
 <script>
     import chIco from '$lib/assets/rino.gif';
     import image1 from '$lib/assets/cells.gif';
+    import spadeaQuote from '$lib/assets/spadea quote.png';
 </script>
 
 <div>
@@ -22,6 +23,7 @@
         <p>Spadea has used X to attack the trans community.</p>
         <p>“The trans cult has to be stopped. Trans women are MEN. The court doesn’t need to decide on the definition of a woman,” he wrote in 2023. “It’s self evident. It’s biology. It’s reality. Stop the assault on women. It’s common sense.”</p>
         <p>Spadea has also used the platform to support those implicated in the Jan. 6 riot, calling it “clearly nothing even close to “insurrection.”</p>
+        <img alt="quote" src={spadeaQuote}/>
         <p>“Ridiculous. Every thinking, honest person knows that this was nothing even close to an insurrection. Jan 6th is a Leftist lie,” Spadea tweeted in 2021.</p>
         <p>Others are trying to rechristen Capitol rioters as “political prisoners,” “patriots” and “hostages,” painting the federal government much like Timothy McVeigh did to justify the 1995 Oklahoma City bombing.</p>
         <p>Ingrassia uses his Substack to push ideas promoted by the white nationalism movement, including that schools are indoctrinating “the hatred of whites,” he said in one of his pieces.</p>

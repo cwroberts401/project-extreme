@@ -3,6 +3,7 @@
     import info2 from '$lib/assets/Frame 6.png';
     import chIco from '$lib/assets/rino.gif';
     import TreeModal from './info-modal.svelte';
+    import Chart from './chart.svelte';
     
   </script>
     
@@ -11,7 +12,7 @@
   <h3> Section 1 </h3>
   <h4> Placeholder Title </h4>
     <div>
-    <p>The meeting was an unsettling buffet of conspiracy and grievance.</p>
+    <p> <span class="drop-cap">T</span>he meeting was an unsettling buffet of conspiracy and grievance.</p>
     <p>They had gathered at a former daycare center, tucked on a rural road in the Pine Barrens. American flags and Trump signs hung on off-white walls. A fluorescent yellow placard, bearing a rhinoceros silhouette, leaned against the lectern. It read, “Please stop feeding the RINOS” — Republicans In Name Only.</p>
     <p>Four speakers then took turns riling up the Shamong audience of 40 or so, seated in mismatched metal folding chairs.</p>
     <p>Democrats are grooming your children, they said. The 2020 election was stolen. Liberals will do it again in November if you don’t serve as poll monitors.</p>
@@ -100,6 +101,13 @@
       display: flex;
       color: black;
     }
+
+    .drop-cap{
+      font-size: 38px;
+      font-weight: bold;
+      color: red; 
+    }
+
     .highlight {
       background-color: red;
       position: relative;
@@ -135,17 +143,19 @@
     }
 
     p {
-      font-family: 'Times New Roman', Times, serif;
+      font-family: Arial, Helvetica, sans-serif;
       font-size: 13pt;
       line-height: 18pt;
     }
 
     h3 {
       margin: 0;
+      font-size: 28px;
     }
 
     h4 {
-      margin: 0 0 20px 0;
+      margin: 0 0 22px 0;
+      font-size: 20px;
     }
 
     .ch-icon{

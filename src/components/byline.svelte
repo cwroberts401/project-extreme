@@ -7,7 +7,8 @@
 </div>-->
 <div>
     <div class="by-line">
-        <h4>By Spencer Kent for NJ Advance Media</h4>
+        <h4>By Spencer Kent</h4>
+        <h5>for NJ Advance Media</h5>
         <h5>XX September 2024</h5>
     </div>
 </div>
@@ -39,18 +40,20 @@
 
     h4 {
         font-family: 'Courier New', Courier, monospace;
-        font-size: 15px;
+        font-size: 22px;
         color: white;
         text-align: center;
         margin-bottom: 0;
     }
 
     h5 {
+        margin-top: 3px;
         font-family: 'Courier New', Courier, monospace;
-        font-size: 12px;
+        font-size: 16px;
         color: white;
         text-align: center;
         margin: 0;
+        font-weight: 300;
     }
 
     .by-line{

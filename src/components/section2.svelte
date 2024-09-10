@@ -1,5 +1,5 @@
 <script>
-    import info1 from '$lib/assets/crispi-txt.png';
+    import info1 from '$lib/assets/crispi-quote.png';
     import chIco from '$lib/assets/rino.gif';
     import image1 from '$lib/assets/ch-2-chart.png';
     import TreeModal from './info-modal.svelte';

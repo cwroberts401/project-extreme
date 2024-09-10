@@ -1,5 +1,6 @@
 <script>
     import chIco from '$lib/assets/rino.gif';
+    import solowayQuote from '$lib/assets/soloway quote.png';
 </script>
 
 <div>
@@ -19,6 +20,7 @@
         <p>And it turns out, law enforcement had already been looking for him. He was a suspect behind a racist banner recently hung over a highway as part of a white supremacist group. The banner hung over Route 22 in Bridgewater in March 2022???</p>
         <p>“It all started with this banner,” Tom Hauck, director of intelligence and operations at the New Jersey Office of Homeland Security and Preparedness, told NJ Advance Media.</p>
         <p>It carried white supremacist messaging, he said before declining to go into further specifics.</p>
+        <img alt="quote" src={solowayQuote}/>
         <p>“They just started pulling threads,” Hauck said. “And fast forward, now we have this guy attacking the concert at a church, blocking people from leaving, throwing smoke and bear spray (then) to identifying him.”</p>
         <p>Mucci pleaded guilty to xxx and was sentenced in August to xxx. ,… said John Cito, Mucci’s attorney. He xxx … .</p>
         <p>Words have consequences, the incident proved. What begins with rhetoric can influence people and result in acts of violence. Especially in such tense, polarized times.</p>

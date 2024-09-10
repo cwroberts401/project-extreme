@@ -1,6 +1,7 @@
 <script>
     import chIco from '$lib/assets/rino.gif';
     import image1 from '$lib/assets/nj-outline.gif';
+    import durrQuote from '$lib/assets/durr quote.png';
 </script>
 
 <div>
@@ -29,6 +30,7 @@
         <p>Why would state and local leaders align themselves with figures like Crispi, Durr and Ingrassia?</p>
         <p>“Right now (Crispi is) in communication with a segment of the Republican coalition,” Rasmussen said.</p>
         <p>“And he's clearly got inroads within that community,” he added.</p>
+        <img alt="quote" src={durrQuote}/>
         <p>On the other side, Auth “must feel — and there's probably some evidence to support this — ‘My district is more conservative than most … I can put together a coalition with these folks,” Rasmussen said.</p>
         <p>Auth, who did not return messages seeking comment, is hardly alone.</p>
         <p>Santos is among the politicians walking a fine line: tuning out the far right’s divisive messaging while embracing its support. The chair of the Union County Republican Party — ousting the establishment chair in June — Santos welcomed an endorsement from Ingrassia at a February fundraiser co-hosted by the America First Republicans of New Jersey.</p>

@@ -13,6 +13,11 @@
         return line;
     }
 
+    // Function to generate random rotation
+    function getRandomRotation() {
+        return Math.floor(Math.random() * 21) - 10; // Random number between -10 and 10
+    }
+
     onMount(() => {
         const container = document.querySelector('.chart-container');
         const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
@@ -55,11 +60,19 @@
                 lines.forEach(({ line, box1, box2 }) => {
                     if (box === box1 || box === box2) {
                         line.setAttribute('stroke', 'red');
+                        line.setAttribute('opacity', '1');
                     } else {
                         line.setAttribute('stroke', 'darkgray');
+                        line.setAttribute('opacity', '0.2');
                     }
                 });
             });
+        });
+
+        // Add random rotation to each box
+        boxes.forEach((box) => {
+            const rotation = getRandomRotation();
+            box.style.transform = `rotate(${rotation}deg)`;
         });
     });
 </script>
@@ -88,25 +101,15 @@
             <li>Far right activist with clost ties to Trump</li>
         </ul>
     </div>
-    <div class="r-1 laura box">
+    <div class="r-2 laura box">
         <p>Laura Loomer</p>
         <ul>
             <li>far-right white nationalist, conspiracy theroist and self described "Islamophobe"</li>
             <li>seen in numerous photos with Crispi and Ingrassia</li>
         </ul>
     </div>
-    <!--row 2-->
-    <div class="r-2 mike box">
-        <p>Mike Crispi</p>
-        <ul>
-            <li>Onine talk show host</li>
-            <li>co-chair of America First Republicans for NJ</li>
-            <li>Conspiracy theroist, election denier</li>
-            <li>Has promoted the "great replacment theory" on his talk show</li>
-        </ul>
-    </div>
     <!--row 3-->
-    <div class="r-3 ed box">
+    <div class="r-2 ed box">
         <p>Ed Durr</p>
         <ul>
             <li>Former State senator</li>
@@ -139,7 +142,17 @@
             <li>Spoke at AFRNJ event in Keyport with Crispi and Ingrassia</li>
         </ul>
     </div>
-    <div class="r-4 paul box">
+        <!--row 2-->
+        <div class="r-4 mike box">
+            <p>Mike Crispi</p>
+            <ul>
+                <li>Onine talk show host</li>
+                <li>co-chair of America First Republicans for NJ</li>
+                <li>Conspiracy theroist, election denier</li>
+                <li>Has promoted the "great replacment theory" on his talk show</li>
+            </ul>
+        </div>
+    <div class="r-5 paul box">
         <p>Paul Ingrassia</p>
         <ul>
             <li>New Yorker with links to Crispi, Roger Stone, and Loomer</li>
@@ -149,7 +162,7 @@
         </ul>
     </div>
     <!--row 4-->
-    <div class="r-4 jeff box">
+    <div class="r-5 jeff box">
         <p>Rep. Jeff Van Drew</p>
         <ul>
             <li>MAGA Congressman</li>
@@ -158,14 +171,14 @@
             <li>Has appeared with Crispi and AFRNJ</li>
         </ul>
     </div>
-    <div class="r-4 nik box">
+    <div class="r-5 nik box">
         <p>Nik Stouffer/ The New Jersey Project</p>
         <ul>
             <li>Co-founder of the NJ Project, a parental rights group that promotes book-banning and anti-LGBTQ rehetoric</li>
             <li>Has hosted event with CCNJ</li>
         </ul>
     </div>
-    <div class="r-5 carlos box">
+    <div class="r-6 carlos box">
         <p>Carlos Santos</p>
         <ul>
             <li>Has Fundraised with America first Republicans of NJ</li>
@@ -176,14 +189,14 @@
         </ul>
     </div>
     <!--row 5-->
-    <div class="r-5 lee box">
+    <div class="r-6 lee box">
         <p>Lee Mack</p>
         <ul>
             <li>Runs Concerned Citizens of NJ, a small grassroots nonprofit that promotes overt conspiracy theories and anti-semitic tropes</li>
             <li>has ties with Stouffer and has co-hosted events with the New Jersey Project</li>
         </ul>
     </div>
-    <div class="r-5 phil box">
+    <div class="r-6 phil box">
         <p>Pastor Phil Maxwell</p>
         <ul>
             <li>Head of Gateway church (where Lee Mack will hold gatherings for CCNJ)</li>
@@ -205,6 +218,17 @@
         gap: 40px;
         padding-bottom: 30px;
         padding-top: 30px;
+        background-image: url('../lib/assets/corkboard.jpg');
+        background-size: cover;
+        padding: 0 10px;
+        margin: 0 10px;
+        width: 100vw;
+        margin: 0
+    }
+
+    .chart-title p {
+        font-size: 12px;
+        margin: 20px 0;
     }
 
     p{
@@ -230,6 +254,38 @@
         position: relative;
         z-index: 20;
         border-radius: 4px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .box:hover {
+        box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    h3 {
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 30px;
+    }
+
+    p {
+        color: black;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    li {
+        color: black;
+    }
+
+    h4 {
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 18px;
     }
 
     .r-1 { grid-row: 1; }
@@ -237,18 +293,19 @@
     .r-3 { grid-row: 3; }
     .r-4 { grid-row: 4; }
     .r-5 { grid-row: 5; }
-    .bill { grid-column: 2/3; }
-    .roger { grid-column: 6/7; }
-    .laura { grid-column: 9/10; }
-    .mike { grid-column: 5/7; }
-    .ed { grid-column: 1/2; }
-    .bob { grid-column: 4/5; }
-    .stephen { grid-column: 7/8; }
-    .cynthia { grid-column: 10/11; }
-    .paul { grid-column: 9/10; }
+    .r-6 { grid-row: 6; }
+    .bill { grid-column: 4/5; }
+    .roger { grid-column: 7/8; }
+    .laura { grid-column: 8/9; }
+    .mike { grid-column: 5/6; }
+    .ed { grid-column: 3/4; }
+    .bob { grid-column: 2/3; }
+    .stephen { grid-column: 5/6; }
+    .cynthia { grid-column: 9/10; }
+    .paul { grid-column: 8/9; }
     .jeff { grid-column: 2/3; }
-    .nik { grid-column: 6/7; }
+    .nik { grid-column: 5/6; }
     .carlos { grid-column: 9/10; }
-    .lee { grid-column: 3/4; }
+    .lee { grid-column: 2/3; }
     .phil { grid-column: 6/7; }
 </style>

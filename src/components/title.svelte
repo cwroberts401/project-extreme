@@ -5,7 +5,7 @@
 </svelte:head>
 
 <script>
-    import imm1 from '$lib/assets/flag v2.gif';
+    import imm1 from '$lib/assets/flag revised.gif';
     import imm2 from '$lib/assets/extreme-logo.png';
 </script>
 
@@ -42,11 +42,12 @@
     .wrapper {
         margin-top: 5px;
         width: 100%;
-        padding-left: 30px;
+        display: flex;
+        justify-content: center;
     }
 
     .icon{
-        max-width: 150px;
+        max-width: 180px;
         height: auto;
     }
 

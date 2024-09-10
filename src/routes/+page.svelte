@@ -14,6 +14,8 @@
     import Interactive3 from "../components/interactive3.svelte";
     import Interactive2 from "../components/interactive2.svelte";
     import InfoModal from "../components/info-modal.svelte";
+    import Img4 from "../components/img4.svelte";
+    import Img5 from "../components/img5.svelte";
 </script>
 
 <Title/>
@@ -29,10 +31,11 @@
         <Section2/>
         <Interactive3/>
         <Section3/>
+        <Img4/>
         <Section4/>
+        <Img5/>
         <Section5/>
         <Credits/>
-        <Messages/>
     </div>
 
 <style>
