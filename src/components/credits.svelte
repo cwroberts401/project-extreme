@@ -1,5 +1,5 @@
 <script>
-    import sKent from '$lib/assets/sKent.jpg';
+    import sKent from '$lib/assets/SKent.jpg';
     import cRoberts from '$lib/assets/cr-headshot.jpg';
     import aMalok from '$lib/assets/AMalok.jpg';
     import jRoberts from '$lib/assets/jeff (1).jpg';
