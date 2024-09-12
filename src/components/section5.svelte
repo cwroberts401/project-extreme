@@ -1,13 +1,16 @@
-<script>
-    import chIco from '$lib/assets/rino.gif';
+<script>  
+    import '../styles/section-styles.css';
+    import chIco from '$lib/assets/rino.png';
     import image1 from '$lib/assets/nj-outline.gif';
     import durrQuote from '$lib/assets/durr quote.png';
 </script>
 
-<div>
+<div class="section-container">
+    <div class="section-title">
     <img class="ch-icon" src={chIco} alt="republician elephant"/>
     <h3>Section 5</h3>
     <h4>N.J. turning red?</h4>
+    </div>
     <div>
         <p>Ed Durr stood before the audience in Shamong and issued a stark warning.</p>
         <p>“They are coming for your kids,” he said.</p>
@@ -47,64 +50,3 @@
         <p>"I'm more worried about building the party, growing, winning elections on a local level and just giving Republicans a voice again, especially in the underserved Republican areas,” he said.</p>
     </div>
 </div>
-
-<style>
-    /* Style for the highlighted spans */
-    .info-modal{
-      display: flex;
-      color: black;
-    }
-    .highlight {
-      background-color: red;
-      position: relative;
-      cursor: pointer;
-    }
-  
-    .more-modal {
-        background-color: white;
-        width: 70%;
-        margin: 20px auto;
-        color: black;
-    }
-  
-    img {
-        max-width: 100%;
-    }
-  
-    /* Style for the line */
-    .line {
-      position: absolute;
-      height: 2px;
-      background-color: red;
-      z-index: 10;
-      display: none;
-    }
-  
-    /* Styling for the container */
-    div {
-      color: white;
-      width: 80%;
-      margin: 40px 10%;
-      font-family: 'Courier New', Courier, monospace;
-    }
-  
-    p {
-      font-family: 'Times New Roman', Times, serif;
-      font-size: 13pt;
-      line-height: 18pt;
-    }
-  
-    h3 {
-      margin: 0;
-    }
-  
-    h4 {
-      margin: 0 0 20px 0;
-    }
-  
-    .ch-icon{
-      width: 75px;
-      height: auto;
-  
-    }
-  </style>

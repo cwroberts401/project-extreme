@@ -1,13 +1,18 @@
 <script>
+    import sKent from '$lib/assets/sKent.jpg';
+    import cRoberts from '$lib/assets/cr-headshot.jpg';
+    import aMalok from '$lib/assets/AMalok.jpg';
+    import jRoberts from '$lib/assets/jeff (1).jpg';
+    import jBeym from '$lib/assets/Jessica Beym 02.jpg';
+    import lCardone from '$lib/assets/Cardon1.jpg';
+    import Seagulls from '$lib/assets/AM2_9374.jpg';            
 </script>
 
 <div class="container">
     <div class="content">
         <div class="profile">
             <div class="image-container">
-                <!--
-                <img src="SKent.jpg" alt="Spencer Kent headshot"/>
-                -->
+                <img src={sKent} alt="Spencer Kent headshot"/>
             </div>
             <div class="profile-info">
                 <p class="role">Reporter:</p>
@@ -19,9 +24,7 @@
         </div>
         <div class="profile">
             <div class="image-container">
-                <!--
-                <img src="cr-headshot.jpg" alt="Carl Roberts's headshot"/>
-                -->
+                <img src={cRoberts} alt="Carl Roberts's headshot"/>
             </div>
             <div class="profile-info">
                 <p class="role">Developer:</p>
@@ -30,9 +33,7 @@
         </div>
         <div class="profile">
             <div class="image-container">
-                <!--
-                <img src="AMalok.jpg" alt="Andre Malok's headshot"/>
-                -->
+                <img src={aMalok} alt="Andre Malok's headshot"/>
             </div>
             <div class="profile-info">
                 <p class="role">Videographer:</p>
@@ -44,20 +45,7 @@
         </div>
         <div class="profile">
             <div class="image-container">
-                <!--
-                <img class="object-cover" src="edMurray.jpg" alt="Michael Mancuso's headshot"/>
-                -->
-            </div>
-            <div class="profile-info">
-                <p class="role">Photographer:</p>
-                <p class="name">Ed Murray</p>
-            </div>
-        </div>
-        <div class="profile">
-            <div class="image-container">
-                <!--
-                <img src="jeff.jpg" alt="Jeff Roberts's headshot"/>
-                -->
+                <img src={jRoberts} alt="Jeff Roberts's headshot"/>
             </div>
             <div class="profile-info">
                 <p class="role">Editor:</p>
@@ -66,9 +54,7 @@
         </div>
         <div class="profile">
             <div class="image-container">
-                <!--
-                <img class="object-cover" src="Jessica Beym 02.jpg" alt="Jessica Beym's headshot"/>
-                -->
+                <img class="object-cover" src={jBeym} alt="Jessica Beym's headshot"/>
             </div>
             <div class="profile-info">
                 <p class="role">Multimedia Editor:</p>
@@ -77,9 +63,7 @@
         </div>
         <div class="profile">
             <div class="image-container">
-                <!--
-                <img class="object-cover" src="Cardon1.jpg" alt="Libby Cardone's headshot"/>
-                -->
+                <img class="object-cover" src={lCardone} alt="Libby Cardone's headshot"/>
             </div>
             <div class="profile-info">
                 <p class="role">Social Media:</p>
@@ -94,9 +78,7 @@
             <p class="article-date">August 16th, 2022</p>  
         </div>
         <div class="article-image">
-            <!--
-            <img src="AM2_9280.jpg" alt="A seagull flies across a NJ beach"/>
-        -->
+            <img src={Seagulls} alt="A seagull flies across a NJ beach"/>
         </div>
     </div>
     <h6 class="subscribe">Our journalism needs your support. Please <a class="subscribe-link" href="https://www.nj.com/subscribe/">subscribe</a> today to NJ.com</h6>

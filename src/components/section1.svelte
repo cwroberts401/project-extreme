@@ -1,16 +1,19 @@
 <script>
+    import '../styles/section-styles.css';
     import info1 from '$lib/assets/ch-1-chart.png';
     import info2 from '$lib/assets/Frame 6.png';
-    import chIco from '$lib/assets/rino.gif';
+    import chIco from '$lib/assets/rino.png';
     import TreeModal from './info-modal.svelte';
     import Chart from './chart.svelte';
     
   </script>
     
-<div>
-  <img class="ch-icon" src={chIco} alt="republician elephant"/>
-  <h3> Section 1 </h3>
-  <h4> Placeholder Title </h4>
+<div class="section-container">
+  <div class="section-title">
+    <img class="ch-icon" src={chIco} alt="republician elephant"/>
+    <h3> Section 1 </h3>
+    <h4> Placeholder Title </h4>
+  </div>
     <div>
     <p> <span class="drop-cap">T</span>he meeting was an unsettling buffet of conspiracy and grievance.</p>
     <p>They had gathered at a former daycare center, tucked on a rural road in the Pine Barrens. American flags and Trump signs hung on off-white walls. A fluorescent yellow placard, bearing a rhinoceros silhouette, leaned against the lectern. It read, “Please stop feeding the RINOS” — Republicans In Name Only.</p>
@@ -30,7 +33,7 @@
     </TreeModal> 
       , a rheumatologist based in Vineland and a longtime friend of former President Donald Trump, told the audience. “They're bringing in more than rape. They're bringing in something invisible. They're bringing in diseases.”</p>
     <p>A dozen or so applauded Soloway, the keynote speaker, as state Assemblyman Bob Auth (R-Bergen) and others looked on from the back.</p>    
-    <p>The event — billed as a “Hands Off My Ballot” rally and open to the public — was hosted by two influential organizations: the America First Republicans of New Jersey and the New Jersey Project, a parental rights collective named an anti-government organization this year by the Southern Poverty Law Center.</p>
+    <p>The event — billed as a “Hands Off My Ballot��� rally and open to the public — was hosted by two influential organizations: the America First Republicans of New Jersey and the New Jersey Project, a parental rights collective named an anti-government organization this year by the Southern Poverty Law Center.</p>
     <p>These grassroots groups are among a loose confederation of far-right influencers and organizations that have somehow found an audience in New Jersey, long celebrated as a left-leaning bastion of pragmatic politics. And they’ve done it using hate speech, bigotry and rage.</p>
     <p>“Even in New Jersey, they are latching on to these populous talking points of: ‘It’s the other guy.’ It’s the fear of the other,” said a state Democratic official not authorized to speak for the party. “It’s a tale as old as time.”</p>
     <img alt="info rally" src={info1}>
@@ -38,6 +41,9 @@
     <p>We attended events ranging from pro-Trump rallies to fundraisers for Jan. 6 rioters to church movie nights and found overtly xenophobic, antisemitic and anti-LGBTQ+ rhetoric at many of them — complete with white supremacist overtones. We also monitored social media accounts, podcasts and internet forums and interviewed xx politicians, law enforcement officials, political insiders and experts, examining the pockets of extremism that have developed in New Jersey in the aftermath of the 2016 presidential election and the Jan. 6, 2021 Capitol riot.</p>
     <p>Some groups, such as the America First Republicans and Concerned Citizens of NJ, are pulling the strings of New Jersey’s political fury, polarizing and inflaming voters and casting doubt on democratic institutions, including the GOP itself. They’re employing scare tactics, borrowing talking points from Russian state television and trying to normalize racist and white nationalist rhetoric, our investigation found. And these toxic influencers are manipulating geopolitical, religious and education issues on a grassroots level to seed discord and rally support for far-right causes.</p>
     <p>The ultraconservative wing is a “dark cloud” hovering over the state GOP, a high-ranking Republican operative who runs campaigns told NJ Advance Media. Their hateful rhetoric is viewed as a necessary evil that party officials refuse to confront – and sometimes even embrace — out of fear of losing support in the Trump era, said the official, who requested anonymity because they are not authorized to speak for the party.</p>
+    <div class="video">
+      <span class="video-placeholder">Video Placeholder</span>
+    </div>
     <p>It’s a “coalition of the willing,” said Jon Lewis, an extremism expert at George Washington University.</p>
     <p>These far-right organizations are part of a larger plan, a number of political insiders and experts tell NJ Advance Media. They have four distinct objectives: 1. Push the state’s Republican Party to the right, 2. Coalesce support at the grassroots level, 3. Win municipal and county elections and 4. Develop future political candidates for higher office.</p>
     <p>Many of the same ultraconservative influencers cross-promote each other’s gatherings on social media and act as dignitaries at those events, delivering speeches and amplifying messaging.</p>
@@ -96,71 +102,19 @@
 </div>
 
 <style>
-    /* Style for the highlighted spans */
-    .info-modal{
-      display: flex;
-      color: black;
-    }
-
-    .drop-cap{
-      font-size: 38px;
-      font-weight: bold;
-      color: red; 
-    }
-
-    .highlight {
-      background-color: red;
-      position: relative;
-      cursor: pointer;
-    }
-
-    .more-modal {
-        background-color: white;
-        width: 70%;
-        margin: 20px auto;
-        color: black;
-    }
-
-    img {
-        max-width: 100%;
-    }
-  
-    /* Style for the line */
-    .line {
-      position: absolute;
-      height: 2px;
-      background-color: red;
-      z-index: 10;
-      display: none;
-    }
-  
-    /* Styling for the container */
-    div {
-      color: white;
-      width: 80%;
-      margin: 40px 10%;
-      font-family: 'Courier New', Courier, monospace;
-    }
-
-    p {
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 13pt;
-      line-height: 18pt;
-    }
-
-    h3 {
-      margin: 0;
-      font-size: 28px;
-    }
-
-    h4 {
-      margin: 0 0 22px 0;
-      font-size: 20px;
-    }
-
-    .ch-icon{
-      width: 75px;
-      height: auto;
-
-    }
-  </style>
+  .video {
+    width: 100%;
+    height: 50vw;
+    background-color: gray;
+    position: relative;
+  }
+  .video-placeholder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+</style>

@@ -1,0 +1,54 @@
+.section-title {
+  display: flex;
+  flex-direction: column; 
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.drop-cap {
+  font-size: 38px;
+  font-weight: bold;
+  color: red; 
+}
+
+.highlight {
+  background-color: red;
+  position: relative;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+.section-container {
+  color: white;
+  width: 80%;
+  max-width: 800px;
+  margin: 40px auto;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13pt;
+  line-height: 18pt;
+}
+
+h3 {
+  margin: 0;
+  font-size: 28px;
+}
+
+h4 {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+}
+
+.ch-icon {
+  width: 75px;
+  height: auto;
+}
+

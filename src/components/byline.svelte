@@ -7,14 +7,20 @@
 </div>-->
 <div>
     <div class="by-line">
-        <h4>By Spencer Kent</h4>
-        <h5>for NJ Advance Media</h5>
         <h5>XX September 2024</h5>
+        <h4>By Spencer Kent</h4>
+        <div class="byline-divider"></div>
+        <h5>for NJ Advance Media</h5>
     </div>
 </div>
 
 <style>
-
+    .byline-divider {   
+        width: 300px;
+        height: 2px;
+        background-color: red;
+        margin: 5px auto;
+    }
     .wrapper {
         margin-top: 40px;
         width: 100%;

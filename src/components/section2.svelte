@@ -1,14 +1,17 @@
 <script>
+    import '../styles/section-styles.css';
     import info1 from '$lib/assets/crispi-quote.png';
-    import chIco from '$lib/assets/rino.gif';
+    import chIco from '$lib/assets/rino.png';
     import image1 from '$lib/assets/ch-2-chart.png';
     import TreeModal from './info-modal.svelte';
 </script>
 
-<div>
+<div class="section-container">
+  <div class="section-title">
     <img class="ch-icon" src={chIco} alt="republician elephant"/>
     <h3> Section 2 </h3>
     <h4> A Web of XXX </h4>
+  </div>
     
     <div>
         <p>A large tent shaded the courtyard behind McDonagh’s Pub & Restaurant in Keyport.</p>
@@ -83,64 +86,3 @@
         <p>“You can’t defend illegal immigration,” Crispi told the Keyport crowd. “You can’t defend crime. You can’t defend inflation. You can’t defend anything right now that is nothing more than a systematic takedown of the America that we all know and love.”</p>
     </div>
 </div>
-
-<style>
-  /* Style for the highlighted spans */
-  .info-modal{
-    display: flex;
-    color: black;
-  }
-  .highlight {
-    background-color: red;
-    position: relative;
-    cursor: pointer;
-  }
-
-  .more-modal {
-      background-color: white;
-      width: 70%;
-      margin: 20px auto;
-      color: black;
-  }
-
-  img {
-      max-width: 100%;
-  }
-
-  /* Style for the line */
-  .line {
-    position: absolute;
-    height: 2px;
-    background-color: red;
-    z-index: 10;
-    display: none;
-  }
-
-  /* Styling for the container */
-  div {
-    color: white;
-    width: 80%;
-    margin: 40px 10%;
-    font-family: 'Courier New', Courier, monospace;
-  }
-
-  p {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 13pt;
-    line-height: 18pt;
-  }
-
-  h3 {
-    margin: 0;
-  }
-
-  h4 {
-    margin: 0 0 20px 0;
-  }
-
-  .ch-icon{
-    width: 75px;
-    height: auto;
-
-  }
-</style>
