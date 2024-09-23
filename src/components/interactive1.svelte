@@ -1,5 +1,5 @@
 <script>
-    import image1 from '$lib/assets/ch-1-main.gif';
+    import image1 from '$lib/assets/ch1-img.jpg';
 
 </script>
 
