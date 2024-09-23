@@ -1,5 +1,5 @@
 <script>
-    import image1 from '$lib/assets/ch-4-lg.png';
+    import image1 from '$lib/assets/social-section4.jpg';
 
 </script>
 
@@ -9,6 +9,7 @@
 
 <style>
     img {
-        max-width: 100%;
+        width: 80%;
+        margin: 0 10%;
     }
 </style>

@@ -1,11 +1,21 @@
 <script>
     import '../styles/section-styles.css';
     import info1 from '$lib/assets/ch-1-chart.png';
+    import video1 from '$lib/assets/Extreme_intro.mp4';
     import info2 from '$lib/assets/Frame 6.png';
     import chIco from '$lib/assets/rino.png';
     import TreeModal from './info-modal.svelte';
     import Chart from './chart.svelte';
     
+    let video;
+  let isMuted = true;
+
+  function toggleMute() {
+    if (video) {
+      video.muted = !video.muted;
+      isMuted = video.muted;
+    }
+  }
   </script>
     
 <div class="section-container">
@@ -42,7 +52,12 @@
     <p>Some groups, such as the America First Republicans and Concerned Citizens of NJ, are pulling the strings of New Jersey’s political fury, polarizing and inflaming voters and casting doubt on democratic institutions, including the GOP itself. They’re employing scare tactics, borrowing talking points from Russian state television and trying to normalize racist and white nationalist rhetoric, our investigation found. And these toxic influencers are manipulating geopolitical, religious and education issues on a grassroots level to seed discord and rally support for far-right causes.</p>
     <p>The ultraconservative wing is a “dark cloud” hovering over the state GOP, a high-ranking Republican operative who runs campaigns told NJ Advance Media. Their hateful rhetoric is viewed as a necessary evil that party officials refuse to confront – and sometimes even embrace — out of fear of losing support in the Trump era, said the official, who requested anonymity because they are not authorized to speak for the party.</p>
     <div class="video">
-      <span class="video-placeholder">Video Placeholder</span>
+      <video bind:this={video} src={video1} autoplay loop muted>
+        <track kind="captions" />
+      </video>
+      <button class="mute-button" on:click={toggleMute}>
+        {isMuted ? 'Unmute' : 'Mute'}
+      </button>
     </div>
     <p>It’s a “coalition of the willing,” said Jon Lewis, an extremism expert at George Washington University.</p>
     <p>These far-right organizations are part of a larger plan, a number of political insiders and experts tell NJ Advance Media. They have four distinct objectives: 1. Push the state’s Republican Party to the right, 2. Coalesce support at the grassroots level, 3. Win municipal and county elections and 4. Develop future political candidates for higher office.</p>
@@ -103,18 +118,28 @@
 
 <style>
   .video {
-    width: 100%;
-    height: 50vw;
-    background-color: gray;
+    max-width: 80vw;
+    height: auto;
     position: relative;
   }
-  .video-placeholder {
+
+  video {
+    width: 100%;
+    height: auto;
+  }
+  .mute-button {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    font-size: 20px;
-    font-weight: bold;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  .mute-button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
   }
 </style>

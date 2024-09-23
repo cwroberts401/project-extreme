@@ -8,6 +8,7 @@
 
 <style>
     img {
-        max-width: 100%;
+        max-width: 80%;
+        margin: 0 10%;
     }
 </style>
