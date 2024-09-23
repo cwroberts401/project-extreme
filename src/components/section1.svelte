@@ -39,7 +39,8 @@
       treeMid={[{ name: "Donald Trump", link: null, main: false }, { name: "Dr. Stephen Soloway", link: null, main: true }, { name: "Rep Bob Auth", link: "#auth", main: false }]} 
       treeBottom={[]}
     >
-      <span class="highlight">Dr. Stephen Soloway</span>
+      
+      <span class="highlight" title="Click to learn more about this character">Dr. Stephen Soloway</span>
     </TreeModal> 
       , a rheumatologist based in Vineland and a longtime friend of former President Donald Trump, told the audience. “They're bringing in more than rape. They're bringing in something invisible. They're bringing in diseases.”</p>
     <p>A dozen or so applauded Soloway, the keynote speaker, as state Assemblyman Bob Auth (R-Bergen) and others looked on from the back.</p>    
@@ -141,5 +142,26 @@
   }
   .mute-button:hover {
     background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .highlight::after {
+    content: attr(title);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+  }
+
+  .highlight:hover::after {
+    opacity: 1;
   }
 </style>
