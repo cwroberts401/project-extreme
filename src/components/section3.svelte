@@ -7,7 +7,7 @@
 <div class="section-container">
   <div class="section-title">
     <img class="ch-icon" src={chIco} alt="republician elephant"/>
-    <h3>Section 3</h3>
+    <h3>Chapter 3</h3>
     <h4>Words = Violence</h4>
   </div>
     <div>

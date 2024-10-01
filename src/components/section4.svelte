@@ -8,8 +8,8 @@
 <div class="section-container">
   <div class="section-title">
     <img class="ch-icon" src={chIco} alt="republician elephant"/>
-    <h3>Section 4</h3>
-    <h4>Screaming in digital</h4>
+    <h3>Chapter 4</h3>
+    <h4>Screaming in Digital</h4>
   </div>
     <div>
         <p>Gatherings are for the converted. But social media, Internet forums, podcasts and livestreams are the vehicles to reach new audiences and maintain continuous contact with the devout.</p>

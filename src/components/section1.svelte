@@ -6,6 +6,9 @@
     import chIco from '$lib/assets/rino.png';
     import TreeModal from './info-modal.svelte';
     import Chart from './chart.svelte';
+    import crispi from '$lib/assets/crispi.jpg';
+    import soloway from '$lib/assets/soloway.jpg';
+    import spadea from '$lib/assets/spadea.png';
     
     let video;
   let isMuted = true;
@@ -21,8 +24,8 @@
 <div class="section-container">
   <div class="section-title">
     <img class="ch-icon" src={chIco} alt="republician elephant"/>
-    <h3> Section 1 </h3>
-    <h4> Placeholder Title </h4>
+    <h3> Chapter 1 </h3>
+    <h4> A Dark Cloud </h4>
   </div>
     <div>
     <p> <span class="drop-cap">T</span>he meeting was an unsettling buffet of conspiracy and grievance.</p>
@@ -38,21 +41,17 @@
       treeTop={[{ name: "Americas First Republican Party", link: null }]} 
       treeMid={[{ name: "Donald Trump", link: null, main: false }, { name: "Dr. Stephen Soloway", link: null, main: true }, { name: "Rep Bob Auth", link: "#auth", main: false }]} 
       treeBottom={[]}
+      imageUrl={soloway}
     >
       
       <span class="highlight" title="Click to learn more about this character">Dr. Stephen Soloway</span>
     </TreeModal> 
       , a rheumatologist based in Vineland and a longtime friend of former President Donald Trump, told the audience. “They're bringing in more than rape. They're bringing in something invisible. They're bringing in diseases.”</p>
     <p>A dozen or so applauded Soloway, the keynote speaker, as state Assemblyman Bob Auth (R-Bergen) and others looked on from the back.</p>    
-    <p>The event — billed as a “Hands Off My Ballot��� rally and open to the public — was hosted by two influential organizations: the America First Republicans of New Jersey and the New Jersey Project, a parental rights collective named an anti-government organization this year by the Southern Poverty Law Center.</p>
+    <p>The event — billed as a “Hands Off My Ballot rally and open to the public — was hosted by two influential organizations: the America First Republicans of New Jersey and the New Jersey Project, a parental rights collective named an anti-government organization this year by the Southern Poverty Law Center.</p>
     <p>These grassroots groups are among a loose confederation of far-right influencers and organizations that have somehow found an audience in New Jersey, long celebrated as a left-leaning bastion of pragmatic politics. And they’ve done it using hate speech, bigotry and rage.</p>
     <p>“Even in New Jersey, they are latching on to these populous talking points of: ‘It’s the other guy.’ It’s the fear of the other,” said a state Democratic official not authorized to speak for the party. “It’s a tale as old as time.”</p>
-    <img alt="info rally" src={info1}>
-    <p>These influencers are engineering outrage, weaponizing cultural issues, and sowing division and distrust in traditionally levelheaded New Jersey, NJ Advance Media has found in a nine-month investigation of the Garden State’s burgeoning ultraconservative movement. They are attempting to mainstream extremism by hijacking conventional political issues and portraying them through the prism of conspiracy theories, discrimination and scapegoating as we approach maybe the most divisive presidential election in American history, our investigation found. All the while, moderate state Republicans are turning a blind eye or even supporting the movement to satisfy their base.</p>
-    <p>We attended events ranging from pro-Trump rallies to fundraisers for Jan. 6 rioters to church movie nights and found overtly xenophobic, antisemitic and anti-LGBTQ+ rhetoric at many of them — complete with white supremacist overtones. We also monitored social media accounts, podcasts and internet forums and interviewed xx politicians, law enforcement officials, political insiders and experts, examining the pockets of extremism that have developed in New Jersey in the aftermath of the 2016 presidential election and the Jan. 6, 2021 Capitol riot.</p>
-    <p>Some groups, such as the America First Republicans and Concerned Citizens of NJ, are pulling the strings of New Jersey’s political fury, polarizing and inflaming voters and casting doubt on democratic institutions, including the GOP itself. They’re employing scare tactics, borrowing talking points from Russian state television and trying to normalize racist and white nationalist rhetoric, our investigation found. And these toxic influencers are manipulating geopolitical, religious and education issues on a grassroots level to seed discord and rally support for far-right causes.</p>
-    <p>The ultraconservative wing is a “dark cloud” hovering over the state GOP, a high-ranking Republican operative who runs campaigns told NJ Advance Media. Their hateful rhetoric is viewed as a necessary evil that party officials refuse to confront – and sometimes even embrace — out of fear of losing support in the Trump era, said the official, who requested anonymity because they are not authorized to speak for the party.</p>
-    <div class="video">
+    <div class="video-container">
       <video bind:this={video} src={video1} autoplay loop muted>
         <track kind="captions" />
       </video>
@@ -60,6 +59,11 @@
         {isMuted ? 'Unmute' : 'Mute'}
       </button>
     </div>
+    <p>These influencers are engineering outrage, weaponizing cultural issues, and sowing division and distrust in traditionally levelheaded New Jersey, NJ Advance Media has found in a nine-month investigation of the Garden State’s burgeoning ultraconservative movement. They are attempting to mainstream extremism by hijacking conventional political issues and portraying them through the prism of conspiracy theories, discrimination and scapegoating as we approach maybe the most divisive presidential election in American history, our investigation found. All the while, moderate state Republicans are turning a blind eye or even supporting the movement to satisfy their base.</p>
+    <p>We attended events ranging from pro-Trump rallies to fundraisers for Jan. 6 rioters to church movie nights and found overtly xenophobic, antisemitic and anti-LGBTQ+ rhetoric at many of them — complete with white supremacist overtones. We also monitored social media accounts, podcasts and internet forums and interviewed xx politicians, law enforcement officials, political insiders and experts, examining the pockets of extremism that have developed in New Jersey in the aftermath of the 2016 presidential election and the Jan. 6, 2021 Capitol riot.</p>
+    <p>Some groups, such as the America First Republicans and Concerned Citizens of NJ, are pulling the strings of New Jersey’s political fury, polarizing and inflaming voters and casting doubt on democratic institutions, including the GOP itself. They’re employing scare tactics, borrowing talking points from Russian state television and trying to normalize racist and white nationalist rhetoric, our investigation found. And these toxic influencers are manipulating geopolitical, religious and education issues on a grassroots level to seed discord and rally support for far-right causes.</p>
+    <p>The ultraconservative wing is a “dark cloud” hovering over the state GOP, a high-ranking Republican operative who runs campaigns told NJ Advance Media. Their hateful rhetoric is viewed as a necessary evil that party officials refuse to confront – and sometimes even embrace — out of fear of losing support in the Trump era, said the official, who requested anonymity because they are not authorized to speak for the party.</p>
+    <img alt="info rally" src={info1}>
     <p>It’s a “coalition of the willing,” said Jon Lewis, an extremism expert at George Washington University.</p>
     <p>These far-right organizations are part of a larger plan, a number of political insiders and experts tell NJ Advance Media. They have four distinct objectives: 1. Push the state’s Republican Party to the right, 2. Coalesce support at the grassroots level, 3. Win municipal and county elections and 4. Develop future political candidates for higher office.</p>
     <p>Many of the same ultraconservative influencers cross-promote each other’s gatherings on social media and act as dignitaries at those events, delivering speeches and amplifying messaging.</p>
@@ -70,8 +74,9 @@
       treeTop={[{ name: "Americas First Republican Party", link: null }]} 
       treeMid={[{ name: "Mike Crispi", link: null, main: true }, { name: "Dr. Stephen Soloway", link: "#soloway", main: false }]} 
       treeBottom={[]}
+      imageUrl={crispi}
     >
-      <span class="highlight">Mike Crispi</span>
+      <span class="highlight" title="Click to learn more about this character">Mike Crispi</span>
     </TreeModal>
     , the charismatic xxx31-year-oldxxx rock star of the group, who received a shoutout from Trump in May at the former president’s Wildwood rally. The well-dressed political activist with a signature raspy voice speaks fast and fervently. His bellicose manner energizes crowds when speaking as the chairman of the America First Republicans of New Jersey and galvanizes listeners of his syndicated podcast, “Mike Crispi Unafraid.”</p>
     <p>In one episode, he barely took a breath between words: “It seems like the illegal vermin — I keep calling them vermin, and people keep saying, ‘Oh, that’s racist, it’s this, it’s that.’ But here’s the thing: It couldn’t be any further from reality.”</p>
@@ -83,7 +88,7 @@
       treeMid={[{ name: "Cynthia Hughes", link: null, main: true }, { name: "Timothy Hale-Cusanelli", link: null, main: false }]} 
       treeBottom={[]}
     >
-      <span class="highlight">Cynthia Hughes</span>
+      <span class="highlight" title="Click to learn more about this character">Cynthia Hughes</span>
     </TreeModal>
       , a New Jersey mother and adoptive aunt of a U.S. Capitol rioter who has raised millions for the legal defense of Jan. 6 defendants — and become a Trump favorite in the process.</p>
     <p id="spadea">You’ll also see political operatives like Union County Republican Party chair Carlos Santos and elected officials like Auth and Englishtown Mayor Daniel Francisco. And you’ll encounter popular 101.5 talk show host 
@@ -93,8 +98,9 @@
       treeTop={[{ name: "LINK HERE", link: null }]}   
       treeMid={[{ name: "Bill Spadea", link: null, main: true }, { name: "LINK HERE", link: null, main: false }]} 
       treeBottom={[]}
+      imageUrl={spadea}
     >
-      <span>Bill Spadea</span>
+      <span class="highlight" title="Click to learn more about this character">Bill Spadea</span>
     </TreeModal>
       , an election denier and COVID vaccine conspiracy theorist who's running for governor in 2025.</p>
     <p>”The biggest influencers, the ones with the massive platforms, are sometimes politicians, and often people with political commentary platforms,” said Elizabeth Neumann, the former assistant secretary for counterterrorism and threat prevention at the U.S. Department of Homeland Security under Trump.</p>
@@ -107,7 +113,7 @@
       treeMid={[{ name: "Carlos Santos", link: null, main: true }, { name: "Lee Mack", link: null, main: false }]} 
       treeBottom={[]}
     >  
-      <span class="highlight">Santos</span>
+      <span class="highlight" title="Click to learn more about this character">Santos</span>
     </TreeModal>
       , who promotes activists such as Lee Mack — who hatches conspiracy theories, anti-LGBTQ+ messaging and Russian propaganda through his Concerned Citizens of New Jersey group — while distancing himself from them when questioned by NJ Advance Media.</p>
     <p>These influencers are reaching tens of thousands of people, despite rhetoric filled with conspiracy theories, election denial and hate speech targeting minority groups.</p>
@@ -118,9 +124,9 @@
 </div>
 
 <style>
-  .video {
-    max-width: 80vw;
-    height: auto;
+  .video-container {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
     position: relative;
   }
 
@@ -128,6 +134,7 @@
     width: 100%;
     height: auto;
   }
+
   .mute-button {
     position: absolute;
     bottom: 10px;
@@ -140,28 +147,8 @@
     font-size: 14px;
     border-radius: 4px;
   }
+
   .mute-button:hover {
     background-color: rgba(0, 0, 0, 0.7);
-  }
-
-  .highlight::after {
-    content: attr(title);
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: black;
-    color: white;
-    padding: 5px;
-    border-radius: 3px;
-    font-size: 12px;
-    white-space: nowrap;
-    opacity: 0;
-    transition: opacity 0.3s;
-    pointer-events: none;
-  }
-
-  .highlight:hover::after {
-    opacity: 1;
   }
 </style>

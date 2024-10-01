@@ -1,6 +1,18 @@
 <script>
     import { onMount } from 'svelte';
 
+    // Define connections between specific cards
+    const connections = [
+        { from: 'nik', to: ['lee', 'bob'] },
+        { from: 'mike', to: ['bill', 'ed', 'bob', 'stephen', 'cynthia', 'paul', 'laura','roger', 'nik', 'carlos',  'jeff'] },
+        { from: 'lee', to: ['carlos'] },
+        { from: 'carlos', to: ['bill', 'ed', 'paul' ] },
+        { from: 'jeff', to: ['stephen'] },
+        { from: 'bob', to: ['ed', 'stephen'] },
+        { from: 'cynthia', to: ['paul'] },
+        { from: 'paul', to: ['laura', 'roger'] },
+    ];
+
     // Function to draw a line between two points
     function drawLine(x1, y1, x2, y2, color = 'darkgray') {
         const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
@@ -9,7 +21,7 @@
         line.setAttribute('x2', x2);
         line.setAttribute('y2', y2);
         line.setAttribute('stroke', color);
-        line.setAttribute('stroke-width', '2');
+        line.setAttribute('stroke-width', '4'); // Increased line thickness
         return line;
     }
 
@@ -35,22 +47,22 @@
         const boxes = Array.from(container.querySelectorAll('.box'));
         const lines = [];
 
-        // Draw initial lines between all boxes
-        boxes.forEach((box1, index1) => {
-            const rect1 = box1.getBoundingClientRect();
-            const x1 = rect1.left + rect1.width / 2;
-            const y1 = rect1.top + rect1.height / 2 - containerTop; // Adjust for container offset
+        // Draw lines only between specified connections
+        connections.forEach(connection => {
+            const fromBox = container.querySelector(`.${connection.from}`);
+            const fromRect = fromBox.getBoundingClientRect();
+            const x1 = fromRect.left + fromRect.width / 2;
+            const y1 = fromRect.top + fromRect.height / 2 - containerTop;
 
-            boxes.forEach((box2, index2) => {
-                if (index1 !== index2) {
-                    const rect2 = box2.getBoundingClientRect();
-                    const x2 = rect2.left + rect2.width / 2;
-                    const y2 = rect2.top + rect2.height / 2 - containerTop; // Adjust for container offset
+            connection.to.forEach(to => {
+                const toBox = container.querySelector(`.${to}`);
+                const toRect = toBox.getBoundingClientRect();
+                const x2 = toRect.left + toRect.width / 2;
+                const y2 = toRect.top + toRect.height / 2 - containerTop;
 
-                    const line = drawLine(x1, y1, x2, y2);
-                    svg.appendChild(line);
-                    lines.push({ line, box1, box2 });
-                }
+                const line = drawLine(x1, y1, x2, y2);
+                svg.appendChild(line);
+                lines.push({ line, box1: fromBox, box2: toBox });
             });
         });
 
@@ -79,9 +91,8 @@
 
 
 <div class="chart-title">
-    <h3>How Are these People connected?</h3>
-    <h4>Here is room for a subtitle of description</h4>
-    <p>Click to highlight connections with others</p>
+    <h3>How Are These Influencers Connected?</h3>
+    <h4>A loose web of political figures leads the far-right movement in New Jersey. Click on the cards to see how each influencer is connected to the others.</h4>
 </div>
 <div class="chart-container">
     <div class="r-1 bill box">
@@ -172,7 +183,7 @@
         </ul>
     </div>
     <div class="r-5 nik box">
-        <p>Nik Stouffer/ The New Jersey Project</p>
+        <p>Nicole Stouffer/ The New Jersey Project</p>
         <ul>
             <li>Co-founder of the NJ Project, a parental rights group that promotes book-banning and anti-LGBTQ rehetoric</li>
             <li>Has hosted event with CCNJ</li>
@@ -196,19 +207,15 @@
             <li>has ties with Stouffer and has co-hosted events with the New Jersey Project</li>
         </ul>
     </div>
-    <div class="r-6 phil box">
-        <p>Pastor Phil Maxwell</p>
-        <ul>
-            <li>Head of Gateway church (where Lee Mack will hold gatherings for CCNJ)</li>
-            <li>antisemitic sermons</li>
-        </ul>
-    </div>
 </div>
 
 <style>
     .chart-title{
         text-align: center;
         color: white;
+        max-width: 700px;
+        margin: 0 auto;
+        padding: 0 20px 30px;
     }
 
     .chart-container {
@@ -226,16 +233,17 @@
         margin: 0
     }
 
-    .chart-title p {
-        font-size: 12px;
-        margin: 20px 0;
-    }
-
     p{
         font-family: 'Courier New', Courier, monospace;
         text-align: center;
         margin-top: 0;
+        font-size: 18px;
+    }
 
+    @media (max-width: 768px) {
+        p {
+            font-size: 11px;
+        }
     }
 
     ul{
@@ -307,5 +315,4 @@
     .nik { grid-column: 5/6; }
     .carlos { grid-column: 9/10; }
     .lee { grid-column: 2/3; }
-    .phil { grid-column: 6/7; }
 </style>

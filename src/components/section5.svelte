@@ -8,8 +8,8 @@
 <div class="section-container">
     <div class="section-title">
     <img class="ch-icon" src={chIco} alt="republician elephant"/>
-    <h3>Section 5</h3>
-    <h4>N.J. turning red?</h4>
+    <h3>Chapter 5</h3>
+    <h4>N.J. Turning Red?</h4>
     </div>
     <div>
         <p>Ed Durr stood before the audience in Shamong and issued a stark warning.</p>

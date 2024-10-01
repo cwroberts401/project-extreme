@@ -4,13 +4,15 @@
     import chIco from '$lib/assets/rino.png';
     import image1 from '$lib/assets/ch-2-chart.png';
     import TreeModal from './info-modal.svelte';
+    import durr from '$lib/assets/durr.jpg';
+
 </script>
 
 <div class="section-container">
   <div class="section-title">
     <img class="ch-icon" src={chIco} alt="republician elephant"/>
-    <h3> Section 2 </h3>
-    <h4> A Web of XXX </h4>
+    <h3> Chapter 2 </h3>
+    <h4> A Web of Influencers </h4>
   </div>
     
     <div>
@@ -29,7 +31,7 @@
       treeMid={[{ name: "Paul Ingrassia", link: null, main: true }, { name: "Cynthia Hughes", link: "#hughes", main: false }]} 
       treeBottom={[]}
     >
-          <span>Ingrassia</span> 
+          <span class="highlight" title="Click to learn more about this character">Ingrassia</span> 
         </TreeModal>
           and other America First activists like McDonald — who has called the Proud Boys “patriots” on his Rumble page. Casey then gave a shout-out to McDonald and Hughes, whose nonprofit, Patriot Freedom Project, provides funds for those incarcerated for their roles in the Capitol riot.</p>
         <p>“This is about the weaponization of government on every level that you could possibly think of,” Hughes told the crowd.</p>
@@ -44,7 +46,7 @@
       treeMid={[{ name: "Paul Ingrassia", link: "#ingrassia", main: false }, { name: "Nicole Stouffer", link: null, main: true }, { name: "Mike Crispi", link: "#crispi", main: false }]} 
       treeBottom={[]}
     >
-          <span class="highlight">Nik Stouffer</span>
+          <span class="highlight" title="Click to learn more about this character">Nik Stouffer</span>
           </TreeModal>
           , co-founder of the New Jersey Project, has aligned herself with Crispi, and her organization has co-hosted events with Mack.</p>
         <p>Statistics don’t bear out Crispi’s claims – nor the accusations of others mentioned in this reporting – that migrants and others from protected classes are responsible for jumps in violent crime or diseases.</p>
@@ -66,8 +68,9 @@
       treeTop={[{ name: "LINK HERE", link: null }]} 
       treeMid={[{ name: "Mike Crispi", link: null, main: true }, { name: "LINK HERE", link: null, main: false }]} 
       treeBottom={[]}
+      imageUrl={durr}
     >
-          <span class="highlight">Ed Durrs</span>
+          <span class="highlight" title="Click to learn more about this character">Ed Durrs</span>
         </TreeModal>
          of the world are winning … They're becoming the face of the party,” Rasmussen said.</p>
         <p>“If you're asking me where do we stand in the fight for the soul of the Republican Party in New Jersey, I don't think the Trump wing is there yet,” he added. “But they're certainly working it night and day.”</p>

@@ -7,10 +7,10 @@
 </div>-->
 <div>
     <div class="by-line">
-        <h5>XX September 2024</h5>
         <h4>By Spencer Kent</h4>
         <div class="byline-divider"></div>
-        <h5>for NJ Advance Media</h5>
+        <h5>For NJ Advance Media</h5>
+        <h5>October 3rd, 2024</h5>
     </div>
 </div>
 

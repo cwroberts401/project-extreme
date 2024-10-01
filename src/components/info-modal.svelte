@@ -1,6 +1,6 @@
 <script>
     import { onMount, tick } from 'svelte';
-    import person from '$lib/assets/sillhoette.png';
+    import defaultPerson from '$lib/assets/sillhoette.png';
   
     // Props
     export let name = "";
@@ -8,7 +8,8 @@
     export let treeTop = [];
     export let treeMid = [];
     export let treeBottom = [];
-  
+    export let imageUrl = ""; // New prop for the person's image URL
+
     // State to manage modal visibility
     let isModalOpen = false;
   
@@ -92,10 +93,10 @@
       
       <!-- Tree Top -->
         <div class="person-info">
-            <div>
-                <img src={person} alt="person icon"/>
+            <div class="image-container">
+                <img src={imageUrl || defaultPerson} alt="person icon" class={imageUrl ? 'circular' : ''}/>
             </div>
-            <div>
+            <div class="person-info-text">
                 <span class="person-name">{name}</span>
                 <ul>
                     {#each facts as fact}
@@ -157,9 +158,20 @@
     }
 
     img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    img.circular {
+        border-radius: 50%;
+    }
+
+    .image-container {
         width: 75px;
-        height: auto;
-        padding-top: 10px;
+        height: 75px;
+        overflow: hidden;
+        border-radius: 50%;
     }
 
     ul {
@@ -173,6 +185,12 @@
         display: flex;
         justify-content: center;
         gap: 20px;
+        max-width: 100%;
+        width: max-content;
+    }
+
+    .person-info-text{
+        width: 80%;
     }
 
     body {
@@ -283,4 +301,3 @@
       font-family: Arial, Helvetica, sans-serif;
     }
   </style>
-  

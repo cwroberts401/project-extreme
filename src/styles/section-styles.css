@@ -39,16 +39,37 @@ p {
 
 h3 {
   margin: 0;
-  font-size: 28px;
+  font-size: 22px;
 }
 
 h4 {
   margin: 0 0 10px 0;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .ch-icon {
   width: 75px;
   height: auto;
+}
+
+.highlight::after {
+  content: attr(title);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 12px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+
+.highlight:hover::after {
+  opacity: 1;
 }
 
