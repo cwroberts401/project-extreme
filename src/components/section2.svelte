@@ -18,9 +18,9 @@
     <div>
         <p>A large tent shaded the courtyard behind McDonagh’s Pub & Restaurant in Keyport.</p>
         <p>American flags flapped in the March wind next to Trump flags as more than 200 people descended on the Jersey Shore community for another “Hands Off My Ballot” rally.</p>
-        <p>Congressional candidates and local officials mingled on the blacktop. Children chased each other as their parents sat at picnic tables. People with clipboards collected signatures to ensure Trump’s name would be on the New Jersey primary ballot. And merchandise tables sold Trump buttons, shirts and hats.</p>
-        <p>Crispi, wearing a white shirt and dark suit jacket, then stepped to the microphone.</p>
+        <p>Congressional candidates and local officials mingled on the blacktop. Children chased each other as their parents sat at picnic tables. People with clipboards collected signatures. And merchandise tables sold Trump buttons, shirts and hats.</p>
         <img alt="quote" src={info1}/>
+        <p>Crispi, wearing a white shirt and dark suit jacket, then stepped to the microphone.</p>
         <p>He stoked the crowd by telling them they were “second-class citizens in our own country.”</p>
         <p>“The illegal immigrants (are) coming in, and they’re not migrants, they’re illegals, coming into this country, savagely harming people,” said Crispi, who in 2022 ran unsuccessfully for Congress in the 4th District.</p>
         <p id="ingrassia">He would stand shoulder-to-shoulder with 
@@ -33,35 +33,11 @@
     >
           <span class="highlight" title="Click to learn more about this character">Ingrassia</span> 
         </TreeModal>
-          and other America First activists like McDonald — who has called the Proud Boys “patriots” on his Rumble page. Casey then gave a shout-out to McDonald and Hughes, whose nonprofit, Patriot Freedom Project, provides funds for those incarcerated for their roles in the Capitol riot.</p>
-        <p>“This is about the weaponization of government on every level that you could possibly think of,” Hughes told the crowd.</p>
-        <p>As this event demonstrated, the far-right in New Jersey is a web, with Crispi at its center. He is part of a new generation of MAGA conservatives — like Charlie Kirk and Andrew Tate — using their online influence to expand their reach.</p>
-        <p>Last year, Salem Media Group, a growing powerhouse in Christian and conservative content, acquired his podcast. He also founded in 2023 the America First Republicans of New Jersey, part of the national America First movement. Its events are sometimes promoted on Telegram by the New Jersey chapter of the Proud Boys.</p>
-        <p>Crispi is close with Trump, often posting photos at Trump Tower or Mar-a-Lago, and seen with Roger Stone, a Trump consultant and Republican operative.</p>
-        <p id="stouffer">Crispi is also aligned with Ingrassia, a New York political activist who has been featured at numerous America First events. Ingrassia was among the hosts of a fundraiser for Santos in February. And Crispi has hosted events with Spadea, who has attended gatherings with Santos. Santos promotes Mack’s website on his own site. Mack is associated with Pastor Phil Maxwell, who has pushed antisemitic conspiracy theories — like the American education system and media outlets are “controlled by” Jews. And 
-          <TreeModal 
-      name={"Nicole Stouffer"}
-      facts={["Founder of the New Jersey Project", "Co-hosted event in Shamong with America First Republicans of New Jersey", "Co-hosts event with Concerned Citizens of New Jersey"]}
-      treeTop={[{ name: "the New Jersey Project", link: null }]} 
-      treeMid={[{ name: "Paul Ingrassia", link: "#ingrassia", main: false }, { name: "Nicole Stouffer", link: null, main: true }, { name: "Mike Crispi", link: "#crispi", main: false }]} 
-      treeBottom={[]}
-    >
-          <span class="highlight" title="Click to learn more about this character">Nik Stouffer</span>
-          </TreeModal>
-          , co-founder of the New Jersey Project, has aligned herself with Crispi, and her organization has co-hosted events with Mack.</p>
-        <p>Statistics don’t bear out Crispi’s claims – nor the accusations of others mentioned in this reporting – that migrants and others from protected classes are responsible for jumps in violent crime or diseases.</p>
-        <p>But everyone gathered agrees there’s a growing market in the state for right-wing views in straight-talking New Jersey. In fact, these advocates believe they might even turn the state red this November for the first time in decades. Even if that’s ambitious, these influencers are slowly recasting the New Jersey GOP by roiling conservative corners of the state – especially in blue-collar communities in Northwest Jersey, along the Shore and throughout South Jersey – rallying voters on a grassroots level and pressuring establishment Republicans further right.</p>
-        <p>“What we do here today,” Crispi said, “will change the course of history. Because New Jersey goes red — landslide, undeniable momentum — and that's how we're going to make America great again.”</p>
-        <img src={image1}/>
-        <p>The crowd — which included Alexandria Township Committeeman Tom Hudanish, Old Bridge Councilman Darin Accettulli and Francisco, the former executive director of Project Veritas — erupted in applause.</p>
-        <p>Some officials doubt the influence of these figures in the Garden State, one of the nation’s most diverse and home to Ellis Island. They mention that ultraconservatives are vastly outnumbered here. They point out that far-right candidates have repeatedly lost in statewide races, and voters haven’t elected a Republican senator since 1972 or supported a GOP presidential candidate since 1988.</p>
-        <p>“In New Jersey, that doesn't exist,” former Democratic governor and recently retired state Sen. Richard Codey told NJ Advance Media.</p>
-        <p>But the GOP did shake up the state in 2021, coming close to winning the gubernatorial election. Three years later, Trump’s rally in Wildwood drew 80,000 to 100,000 people, according to Lisa Fagan, spokesperson for the city.</p>
-        <p>“There's this anti-establishment feeling, which the party has always had an element of … and it's getting stronger,” said Mike DuHaime, a Republican operative who served as senior advisor to Chris Christie's presidential campaign.</p>
-        <p>“I guess I'll wait to see the success before I really judge what it is,” DuHaime added. “Is it a group that does big rallies or is it a group that wins elections?”</p>
-        <p>But far-right Republicans have won “plenty of school board races,” said Micah Rasmussen, director of the Rebovich Institute for New Jersey Politics at Rider University.</p>
-        <p>It shows they’re making progress, at least at the local level —  where the state’s political leaders of the future are bred. And it’s perhaps evidence that the Republican rank-and-file has begun turning on the GOP establishment as it has in many other states, part of a growing national trend of grassroots anti-government, conspiracy politics.</p>
-        <p id="durr">“The party so far has continued to put up moderate statewide candidates like Jack Ciattarelli, like Bob Hugin … but I certainly think that the 
+        and other activists like Hughes in front of the audience.</p>
+        <p>“This is about the weaponization of government on every level that you could possibly think of,” she told the crowd, referring to the prosecution of Jan. 6 rioters.</p>
+        <p>Hughes did not respond to interview requests via email and a letter left at her home.</p>
+        <p>As this event demonstrated, the far-right in New Jersey is a web, with Crispi often at its center. Here is an abridged version of their ties, six degrees of separation-style:</p>
+        <p id="durr">Crispi has <a href="https://nyyrc.com/events/nj-invasion-and-liberation-event-with-mike-crispi-bill-spadea/">hosted events with Spadea</a>, who has endorsed <a href="https://mikecrispi.com/endorsements">Crispi</a>,  
           <TreeModal 
       name={"Ed Durr"}
       facts={["Known as Ed 'the Trucker' Durr", "Former Republican state senator", "Spoke at event in Shamong"]}
@@ -70,22 +46,44 @@
       treeBottom={[]}
       imageUrl={durr}
     >
-          <span class="highlight" title="Click to learn more about this character">Ed Durrs</span>
+          <span class="highlight" title="Click to learn more about this character"> Durr </span>
         </TreeModal>
-         of the world are winning … They're becoming the face of the party,” Rasmussen said.</p>
+        and <a href="https://nj1015.com/raucous-crowd-in-clark-nj-ready-to-win/">Santos.</a></p>
+        <p id="stouffer">Durr has been a featured speaker at events with Spadea, Santos and 
+          <TreeModal 
+      name={"Nicole Stouffer"}
+      facts={["Founder of the New Jersey Project", "Co-hosted event in Shamong with America First Republicans of New Jersey", "Co-hosts event with Concerned Citizens of New Jersey"]}
+      treeTop={[{ name: "the New Jersey Project", link: null }]} 
+      treeMid={[{ name: "Paul Ingrassia", link: "#ingrassia", main: false }, { name: "Nicole Stouffer", link: null, main: true }, { name: "Mike Crispi", link: "#crispi", main: false }]} 
+      treeBottom={[]}
+    >
+          <span class="highlight" title="Click to learn more about this character">Stouffer.</span>
+          </TreeModal>
+          </p>
+        <p>Stouffer has aligned herself with Crispi and co-hosted the Shamong event with his America First group. Her organization has also co-hosted events with Mack. Santos promotes Mack’s website on his <a href="https://unioncountyvote.org/index.php">own site.</a></p>
+        <p>Crispi is also aligned with Ingrassia, who endorsed Santos at a fundraiser in February.</p>
+        <p>Everyone gathered in Keyport seemed to agree there’s a growing market for right-wing views in straight-talking New Jersey. In fact, these advocates believe they might even turn the state red this November for the first time in decades.</p>
+        <img src={image1}/>
+        <p>Even if every prognosticator still sees the state as solidly blue, these influencers are slowly recasting the state GOP by roiling conservative corners of New Jersey. They’re rallying voters on a grassroots level — especially in blue-collar communities in Northwest Jersey, along the Shore and throughout South Jersey – and pressuring establishment Republicans further right.</p>
+        <p>“What we do here today,” Crispi said, “will change the course of history. Because New Jersey goes red — landslide, undeniable momentum — and that's how we're going to make America great again.”</p>
+        <p>The crowd — dotted with local officials such as Araneo, Alexandria Township Committeeman Tom Hudanish and Francisco, the former executive director of <a href="https://www.projectveritas.com/">Project Veritas</a> — erupted in applause.</p>
+        <p>Some state officials doubt the influence of these figures in the Garden State, one of the nation’s most diverse. They mention that ultraconservatives are vastly outnumbered here. They point out that far-right candidates have repeatedly lost in statewide races, and voters haven’t elected a Republican senator since 1972 or supported a GOP presidential candidate since 1988.</p>
+        <p>“In New Jersey, that doesn't exist,” former Democratic governor and recently retired state Sen. Richard Codey told NJ Advance Media.</p>
+        <p>But the GOP did <a href="https://www.nj.com/politics/2021/11/what-the-hell-just-happened-in-new-jersey-how-the-2021-election-redefined-crazy.html">shake up the state in 2021</a>, narrowly losing the gubernatorial election. Three years later, Trump’s rally in Wildwood drew 80,000 to 100,000 people, according to Lisa Fagan, spokesperson for the city.</p>
+        <p>“There's this anti-establishment feeling, which the party has always had an element of … and it's getting stronger,” said Mike DuHaime, a Republican operative who served as senior advisor to former Gov. Chris Christie's presidential campaign.</p>
+        <p>“I guess I'll wait to see the success before I really judge what it is,” DuHaime added. “Is it a group that does big rallies or is it a group that wins elections?”</p>
+        <p>But far-right Republicans have won plenty of school board races, said Micah Rasmussen, director of the Rebovich Institute for New Jersey Politics at Rider University.</p>
+        <p>It shows they’re making progress, at least at the local level —  where the state’s political leaders of the future are bred, he said. And perhaps it’s evidence that the Republican rank-and-file has begun turning on the GOP establishment as it has in many other states in favor of far-right voices.</p>
+        <p>“The party so far has continued to put up moderate statewide candidates like Jack Ciattarelli, like Bob Hugin … but I certainly think that the Ed Durrs of the world are winning … They're becoming the face of the party,” Rasmussen said.</p>
         <p>“If you're asking me where do we stand in the fight for the soul of the Republican Party in New Jersey, I don't think the Trump wing is there yet,” he added. “But they're certainly working it night and day.”</p>
-        <p>Part of that effort is moving into the political mainstream. After the Capitol riot, many groups maintained a lower profile. Even the New Jersey chapter of the Oath Keepers, an ultraconservative anti-government group — has remained under the radar.</p>
-        <p>“As the quote-unquote leader for New Jersey, I haven’t called a meeting just with all the controversy that’s been going on because some people are very scared of the tyranny,” Edward Durfee, a Bergen County Oath Keeper who was at the Capitol riot, told NJ Advance Media in April.</p>
-        <p>Instead, the former Marine — like other members of the far-right — is trying to operate as an insider.</p>
-        <p>Durfee, xx69xx, is chairman of the Northvale Republican Party Committee. He also ran for the state Assembly in 2021 and lost. He’s open to running for office again, he says.</p>
-        <p>“I’m still involved locally with getting Republican candidates elected,” he said.</p>
-        <p>Durfee and leaders like Crispi and Spadea portray themselves as supporters of liberty and “traditional” Christian values.</p>
-        <p>But some spew outright venom across all mediums, while others hide behind dog whistle themes and coded language to launch verbal attacks on people of color, Jews and the LGBTQ+ community.</p>
-        <p>The influencers’ modus operandi begins with manipulating narratives — say, immigration or culture war issues in schools — “and then they take the next step and say, ‘We got to do something,’” said Neumann, now chief strategy officer for Moonshot, a London-based tech company identifying online extremist threats and offering support services to the perpetrators. “And they employ xenophobic, paranoid, misogynistic narratives to mobilize their base.”</p>
-        <p>“We see extremists actually look for those issues, and then come into the conversation and suggest that hostile action is necessary…” she added. “So they are very good at exploiting those political narratives.”</p>
-        <p>For instance, an official speaker in Keyport accused Democrats of corrupting New Jersey children.</p>
-        <p>“They’re coming for your children and your grandchildren — looking to your schools,” the man, who NJ Advance Media could not identify, yelled into the microphone. “CRT, DEI, sex curriculum, transgender. New Jersey is now a sanctuary state for child mutilation.”</p>
-        <p>Migrants were another central theme.</p>
-        <p>“You can’t defend illegal immigration,” Crispi told the Keyport crowd. “You can’t defend crime. You can’t defend inflation. You can’t defend anything right now that is nothing more than a systematic takedown of the America that we all know and love.”</p>
+        <p>That includes trying to move into the political mainstream.</p>
+        <p>Crispi is part of a new generation of MAGA conservatives — like Charlie Kirk and Andrew Tate — using digital influence to expand their reach.</p>
+        <p>Last year, <a href="https://salempodcastnetwork.com/podcasts/mike-crispi-unafraid">"Mike Crispi Unafraid"</a> was acquired by Salem Media Group, a growing powerhouse in Christian and conservative content. Crispi is also close with Trump, often posting photos on social media from Trump Tower or Mar-a-Lago. And he’s been seen with and endorsed by Roger Stone, a Trump consultant and Republican operative <a href="https://www.washingtonpost.com/opinions/2019/01/27/how-did-roger-stone-survive-watergate/">tied to the Watergate scandal.</a></p>
+        <p>Another example is Edward Durfee, a Bergen County Oath Keeper and leader of its northern New Jersey chapter, who ran for the state Assembly after the Capitol riot and lost.</p>
+        <p>He also serves as chairman of the Northvale Republican Party Committee.</p>
+        <p>Durfee and the rest of the local Oath Keepers — an ultraconservative anti-government organization — maintained a lower profile in the aftermath of the Jan. 6 riot. Members were “very scared of the tyranny” that followed, said Durfeee, referring to the arrests and prosecutions of those who participated in the insurrection. He was at the Capitol that day, but was not arrested.</p>
+        <p>“As the quote-unquote leader for New Jersey, I haven’t called a meeting just with all the controversy that’s been going on,” he told NJ Advance Media in April.</p>
+        <p>But he remains involved on the local level trying to get Republican candidates elected.</p>
+        <p>And he’s open to running for office again, he says.</p>
     </div>
 </div>

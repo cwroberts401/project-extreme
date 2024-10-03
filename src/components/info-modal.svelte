@@ -222,7 +222,7 @@
     }
   
     .info-modal {
-      background-color: #e4e4e4; /* Slightly darker gray for the modal background */
+      background-color: white; /* Slightly darker gray for the modal background */
       display: flex;
       flex-direction: column;
       gap: 20px;
@@ -232,7 +232,6 @@
       right: 15%;
       z-index: 100;
       border-radius: 20px;
-      opacity: .97;
     }
   
     .title-bar {

@@ -92,7 +92,7 @@
 
 <div class="chart-title">
     <h3>How Are These Influencers Connected?</h3>
-    <h4>A loose web of political figures leads the far-right movement in New Jersey. Click on the cards to see how each influencer is connected to the others.</h4>
+    <h4><i>A loose web of political figures leads the far-right movement in New Jersey. Click on the cards to see how each influencer is connected to the others.</i></h4>
 </div>
 <div class="chart-container">
     <div class="r-1 bill box">
@@ -212,7 +212,7 @@
 <style>
     .chart-title{
         text-align: center;
-        color: white;
+        color: red;
         max-width: 700px;
         margin: 0 auto;
         padding: 0 20px 30px;
@@ -227,10 +227,12 @@
         padding-top: 30px;
         background-image: url('../lib/assets/corkboard.jpg');
         background-size: cover;
-        padding: 0 10px;
+        padding: 0;
         margin: 0 10px;
         width: 100vw;
-        margin: 0
+        max-width: 100vw;
+        margin: 0;
+        overflow: hidden;
     }
 
     p{
@@ -243,6 +245,11 @@
     @media (max-width: 768px) {
         p {
             font-size: 11px;
+        }
+
+        .chart-container{
+            margin: 0;
+            padding: 0;
         }
     }
 

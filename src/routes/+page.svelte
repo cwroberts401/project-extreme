@@ -25,9 +25,6 @@
         <InfoModal/>
         <Section1/>
         <Chart/>
-
-        <!--<Interactive2/>-->
-        <Interactive1/>
         <Section2/>
         <Interactive3/>
         <Section3/>

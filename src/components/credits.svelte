@@ -8,6 +8,10 @@
     import Seagulls from '$lib/assets/AM2_9374.jpg';            
 </script>
 
+<p><i>Staff writers Matt Gray and Brent Johnson contributed to this report.</i></p>
+<p><i>Our journalism needs your support. Please subscribe today to NJ.com.</i></p>
+<p><i>Spencer Kent may be reached at skent@njadvancemedia.com.</i></p>
+
 <div class="container">
     <div class="content">
         <div class="profile">
@@ -85,6 +89,10 @@
 </div>
 
 <style>
+    p {
+        color: white !important;
+        text-align: center;
+    }
     .container {
         text-align: center;
         padding-top: 96px; /* pt-24 */
@@ -143,7 +151,8 @@
     .title {
         padding-top: 48px; /* pt-12 */
         padding-bottom: 8px; /* pb-2 */
-        font-size: 14px; /* text-sm */
+        font-size: 14px;
+        font-family: 'Courier New', Courier, monospace;
     }
 
     .article {
@@ -154,12 +163,16 @@
         width: 325px;
         margin: 0 auto; /* mx-auto */
         cursor: pointer;
+        color: white !important;
+        font-family: 'Courier New', Courier, monospace;
     }
 
     .article-text {
         margin-left: 12px; /* ml-3 */
         margin-top: 8px; /* mt-2 */
         text-align: left;
+        color: white !important;
+        font-family: 'Courier New', Courier, monospace;
     }
 
     .article-title {
@@ -180,7 +193,8 @@
 
     .subscribe {
         padding-top: 48px; /* pt-12 */
-        font-size: 14px; /* text-sm */
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     .subscribe-link {

@@ -1,14 +1,13 @@
 <script>
     import '../styles/section-styles.css';
     import info1 from '$lib/assets/ch-1-chart.png';
-    import video1 from '$lib/assets/Extreme_intro.mp4';
-    import info2 from '$lib/assets/Frame 6.png';
+    import video1 from '$lib/assets/Extreme_intro3.mp4';
     import chIco from '$lib/assets/rino.png';
     import TreeModal from './info-modal.svelte';
-    import Chart from './chart.svelte';
     import crispi from '$lib/assets/crispi.jpg';
     import soloway from '$lib/assets/soloway.jpg';
     import spadea from '$lib/assets/spadea.png';
+    import image1 from '$lib/assets/ch1-img.jpg';
     
     let video;
   let isMuted = true;
@@ -28,60 +27,118 @@
     <h4> A Dark Cloud </h4>
   </div>
     <div>
-    <p> <span class="drop-cap">T</span>he meeting was an unsettling buffet of conspiracy and grievance.</p>
-    <p>They had gathered at a former daycare center, tucked on a rural road in the Pine Barrens. American flags and Trump signs hung on off-white walls. A fluorescent yellow placard, bearing a rhinoceros silhouette, leaned against the lectern. It read, “Please stop feeding the RINOS” — Republicans In Name Only.</p>
-    <p>Four speakers then took turns riling up the Shamong audience of 40 or so, seated in mismatched metal folding chairs.</p>
-    <p>Democrats are grooming your children, they said. The 2020 election was stolen. Liberals will do it again in November if you don’t serve as poll monitors.</p>
-    <p>Then a polished man in a fashionable blue suit and designer, black-rimmed glasses strolled to the front of the spacious room that Friday evening in March. He apologized for being tired before launching into his key issue.</p>
-    <p>Migrants. Specifically, the “vermin” and “slime” coming into the United States.</p>
-    <p id="soloway">“They're bringing in more than crime,” 
-      <TreeModal 
-      name={"Dr. Stephen Soloway"}
-      facts={["Vineland-based rheumatologist", "Author of “Medical Politics: How to Protect Yourself from Bad Doctors, Insurance Companies, and Big Government” and “Bad Medicine: The Horrors of American Healthcare”", "Appointed to the president's Council on Sports, Fitness and Nutrition by former President Trump"]}
-      treeTop={[{ name: "Americas First Republican Party", link: null }]} 
-      treeMid={[{ name: "Donald Trump", link: null, main: false }, { name: "Dr. Stephen Soloway", link: null, main: true }, { name: "Rep Bob Auth", link: "#auth", main: false }]} 
-      treeBottom={[]}
-      imageUrl={soloway}
-    >
+      <p><span class="drop-cap">T</span>hey gathered at a former daycare center, tucked on a rural road in the Pine Barrens.</p>
+
+      <p>American flags and Trump signs hung on off-white walls. A fluorescent yellow placard, bearing a rhinoceros silhouette, leaned against the lectern. It read, “Please stop feeding the RINOS” — Republicans In Name Only.</p>
       
-      <span class="highlight" title="Click to learn more about this character">Dr. Stephen Soloway</span>
-    </TreeModal> 
-      , a rheumatologist based in Vineland and a longtime friend of former President Donald Trump, told the audience. “They're bringing in more than rape. They're bringing in something invisible. They're bringing in diseases.”</p>
-    <p>A dozen or so applauded Soloway, the keynote speaker, as state Assemblyman Bob Auth (R-Bergen) and others looked on from the back.</p>    
-    <p>The event — billed as a “Hands Off My Ballot rally and open to the public — was hosted by two influential organizations: the America First Republicans of New Jersey and the New Jersey Project, a parental rights collective named an anti-government organization this year by the Southern Poverty Law Center.</p>
-    <p>These grassroots groups are among a loose confederation of far-right influencers and organizations that have somehow found an audience in New Jersey, long celebrated as a left-leaning bastion of pragmatic politics. And they’ve done it using hate speech, bigotry and rage.</p>
-    <p>“Even in New Jersey, they are latching on to these populous talking points of: ‘It’s the other guy.’ It’s the fear of the other,” said a state Democratic official not authorized to speak for the party. “It’s a tale as old as time.”</p>
-    <div class="video-container">
-      <video bind:this={video} src={video1} autoplay loop muted>
-        <track kind="captions" />
-      </video>
-      <button class="mute-button" on:click={toggleMute}>
-        {isMuted ? 'Unmute' : 'Mute'}
-      </button>
-    </div>
-    <p>These influencers are engineering outrage, weaponizing cultural issues, and sowing division and distrust in traditionally levelheaded New Jersey, NJ Advance Media has found in a nine-month investigation of the Garden State’s burgeoning ultraconservative movement. They are attempting to mainstream extremism by hijacking conventional political issues and portraying them through the prism of conspiracy theories, discrimination and scapegoating as we approach maybe the most divisive presidential election in American history, our investigation found. All the while, moderate state Republicans are turning a blind eye or even supporting the movement to satisfy their base.</p>
-    <p>We attended events ranging from pro-Trump rallies to fundraisers for Jan. 6 rioters to church movie nights and found overtly xenophobic, antisemitic and anti-LGBTQ+ rhetoric at many of them — complete with white supremacist overtones. We also monitored social media accounts, podcasts and internet forums and interviewed xx politicians, law enforcement officials, political insiders and experts, examining the pockets of extremism that have developed in New Jersey in the aftermath of the 2016 presidential election and the Jan. 6, 2021 Capitol riot.</p>
-    <p>Some groups, such as the America First Republicans and Concerned Citizens of NJ, are pulling the strings of New Jersey’s political fury, polarizing and inflaming voters and casting doubt on democratic institutions, including the GOP itself. They’re employing scare tactics, borrowing talking points from Russian state television and trying to normalize racist and white nationalist rhetoric, our investigation found. And these toxic influencers are manipulating geopolitical, religious and education issues on a grassroots level to seed discord and rally support for far-right causes.</p>
-    <p>The ultraconservative wing is a “dark cloud” hovering over the state GOP, a high-ranking Republican operative who runs campaigns told NJ Advance Media. Their hateful rhetoric is viewed as a necessary evil that party officials refuse to confront – and sometimes even embrace — out of fear of losing support in the Trump era, said the official, who requested anonymity because they are not authorized to speak for the party.</p>
-    <img alt="info rally" src={info1}>
-    <p>It’s a “coalition of the willing,” said Jon Lewis, an extremism expert at George Washington University.</p>
-    <p>These far-right organizations are part of a larger plan, a number of political insiders and experts tell NJ Advance Media. They have four distinct objectives: 1. Push the state’s Republican Party to the right, 2. Coalesce support at the grassroots level, 3. Win municipal and county elections and 4. Develop future political candidates for higher office.</p>
-    <p>Many of the same ultraconservative influencers cross-promote each other’s gatherings on social media and act as dignitaries at those events, delivering speeches and amplifying messaging.</p>
-    <p id="crispi">They are podcasters, political organizers, gubernatorial candidates and deeply connected insiders with direct access to Trump. They are people like
-      <TreeModal 
-      name={"Mike Crispi"}
-      facts={["Failed congressional candidate", "Host of “Mike Crispi Unafraid”", "Chairman of the America First Republicans of New Jersey"]}
-      treeTop={[{ name: "Americas First Republican Party", link: null }]} 
-      treeMid={[{ name: "Mike Crispi", link: null, main: true }, { name: "Dr. Stephen Soloway", link: "#soloway", main: false }]} 
+      <p>An unsettling buffet of conspiracy and grievance followed.</p>
+      
+      <p>Democrats are grooming your children, speakers told the audience of 40 or so, seated in mismatched metal folding chairs.</p>
+      
+      <p>The 2020 election was stolen.</p>
+      
+      <p>Liberals will do it again in November if you don’t serve as poll monitors.</p>
+      
+      <p>Then a polished man in a fashionable blue suit and black-rimmed glasses strolled to the front of the spacious room. The keynote speaker apologized for being tired that March evening in Shamong before launching into his fundamental issue.</p>
+      
+      <p>Migrants.</p>
+      
+      <p>Specifically, the “vermin” and “slime” coming into the United States.</p>
+      
+      <p id="soloway">“They're bringing in more than crime,” 
+        <TreeModal 
+        name={"Dr. Stephen Soloway"}
+        facts={["Vineland-based rheumatologist", "Author of “Medical Politics: How to Protect Yourself from Bad Doctors, Insurance Companies, and Big Government” and “Bad Medicine: The Horrors of American Healthcare”", "Appointed to the president's Council on Sports, Fitness and Nutrition by former President Trump"]}
+        treeTop={[{ name: "Americas First Republican Party", link: null }]} 
+        treeMid={[{ name: "Donald Trump", link: null, main: false }, { name: "Dr. Stephen Soloway", link: null, main: true }, { name: "Rep Bob Auth", link: "#auth", main: false }]} 
+        treeBottom={[]}
+        imageUrl={soloway}
+      >
+        
+        <span class="highlight" title="Click to learn more about this character">Dr. Stephen Soloway</span>
+      </TreeModal> 
+        , a rheumatologist based in Vineland and a longtime friend of former President Donald Trump, told the audience. “They're bringing in more than rape. They're bringing in something invisible. They're bringing in diseases.”</p>
+      
+      <p>A dozen or so applauded Soloway as state Assemblyman Bob Auth (R-Bergen) and others looked on from the back.</p>
+      
+      <p>The event — billed as a “Hands Off My Ballot” rally open to the public — was hosted by two influential organizations: the America First Republicans of New Jersey and the New Jersey Project.</p>
+      
+      <p>These grassroots groups are part of a loose confederation of far-right influencers that have somehow found an audience in New Jersey, long viewed as a left-leaning bastion of pragmatic politics. And they’ve largely done it using hate speech, bigotry and discord.</p>
+      
+      <p>They are engineering outrage, weaponizing cultural issues, and sowing division and distrust, NJ Advance Media has found in a nine-month investigation of the Garden State’s burgeoning ultraconservative movement. These influencers are wielding conspiracy theories, intolerance and scapegoating while mainstreaming extremism by hijacking conventional political issues.</p>
+      
+      <p>All the while, state Republicans are turning a blind eye or even supporting the movement to satisfy a growing far-right base as we approach maybe the most divisive presidential election in American history.</p>
+      
+      <p>“Even in New Jersey, they are latching on to these populous talking points of: ‘It’s the other guy.’ It’s the fear of the other,” said a state Democratic official not authorized to speak for the party.</p>
+      
+      <p>“It’s a tale as old as time.”</p>
+      
+      <div class="video-container">
+        <video bind:this={video} src={video1} autoplay loop muted>
+          <track kind="captions" />
+        </video>
+        <button class="mute-button" on:click={toggleMute}>
+          {isMuted ? 'Unmute' : 'Mute'}
+        </button>
+      </div>
+      
+      <p>Beginning in February, we attended events ranging from pro-Trump rallies to fundraisers for Jan. 6 rioters to church movie nights and found overtly xenophobic and anti-LGBTQ+ rhetoric and even white supremacist messaging. We also monitored social media accounts and podcasts and interviewed more than three dozen politicians, political insiders and experts, examining the pockets of extremism that have developed in New Jersey in the aftermath of the 2016 presidential election and the Jan. 6, 2021 Capitol riot.</p>
+      
+      <p>Some groups, such as the America First Republicans and Concerned Citizens of NJ, are polarizing and inflaming voters and casting doubt on democratic institutions, including the GOP itself. They’re also employing scare tactics, borrowing talking points from Russian state television and normalizing racist and white nationalist rhetoric, our investigation found. And these toxic influencers are manipulating education issues to rally support for far-right causes and venerating Jan. 6 rioters in a state where more than 40 people were arrested for their alleged roles in the insurrection.</p>
+      
+      <p>They are increasingly operating out in the open in New Jersey, despite their corrosive language, looking nothing like the people most would associate with conventional notions of extremism.</p>
+      
+      <p>The ultraconservative wing is a “dark cloud” hovering over the state GOP, a high-ranking Republican operative who runs campaigns told NJ Advance Media. Its hateful rhetoric is viewed as a necessary evil that party officials refuse to confront — and sometimes even embrace — out of fear of losing support in the Trump era, said the official, who was not authorized to speak for the party.</p>
+      
+      <p>It’s a “coalition of the willing,” said Jon Lewis, an extremism expert at George Washington University.</p>
+            
+      <p id="crispi">Although some of these figures have a limited sphere of influence, a few — like 
+        <TreeModal 
+        name={"Mike Crispi"}
+        facts={["Failed congressional candidate", "Host of “Mike Crispi Unafraid”", "Chairman of the America First Republicans of New Jersey"]}
+        treeTop={[{ name: "Americas First Republican Party", link: null }]} 
+        treeMid={[{ name: "Mike Crispi", link: null, main: true }, { name: "Dr. Stephen Soloway", link: "#soloway", main: false }]} 
+        treeBottom={[]}
+        imageUrl={crispi}
+      >
+        <span class="highlight" title="Click to learn more about this character">Crispi</span>
+      </TreeModal>
+      and Spadea, a 101.5 FM drive-time talk show host — are among the most powerful conservative influencers in the state.</p>
+
+      
+      <p>And they are part of a larger mission, a number of political insiders and experts tell NJ Advance Media. They want to: push the state’s Republican Party to the right, coalesce support at the grassroots level, win municipal, school board and county elections in a state that leans strongly left and develop future political candidates for higher office.</p>
+      
+      <p>Many of the same ultraconservative influencers endorse each other, cross-promote each other’s events on social media and act as dignitaries at those gatherings, delivering speeches, amplifying messaging and crowdsourcing fundraising efforts.</p>
+      
+      <p>They range from fringe operatives to gubernatorial candidates to influential insiders with direct access to Trump. They are people like Mike Crispi, 31, the charismatic rock star of the group. The co-chair of the America First Republicans of New Jersey and a former Congressional candidate received a shoutout from the former president in May after being selected to speak at Trump’s Wildwood campaign rally.</p>
+      
+      <p>But Crispi has targeted migrants and the trans community on his “Mike Crispi Unafraid” syndicated livestream and pushed <a href="https://www.splcenter.org/hatewatch/2022/05/17/racist-great-replacement-conspiracy-theory-explained">the Great Replacement theory</a> — which claims the white population is being systematically replaced by people of color in a grand conspiracy. In an August episode, Crispi used racist tropes to attack <a href="https://rumble.com/v59brdp-trump-exposes-kamalas-worst-secret-her-poll-numbers-will-now-tank-8pm.html">presidential candidate Kamala Harris</a>, labeling her a “DEI hire.”</p>
+      
+      <p>“Obviously our country is an unrecognizable state. I think there are good people who need a voice, who need to be defended,” he told NJ Advance Media last month in his signature raspy voice at a “Too Big To Rig” event at a Paramus VFW. “I think it's a battle of good versus evil right now.”</p>
+      
+      <p>Crispi is far from alone in this web of influencers. We also encountered:</p>
+      <ul>
+      <li>Ed Durr, the <a href="https://www.nj.com/politics/2021/11/a-newly-elected-nj-state-senator-shocked-the-political-world-then-donald-trump-called.html">truck driver turned GOP sensation</a> who stunned the political world, ousting state Senate President Stephen Sweeney from the Legislature in 2021.</li>
+      
+      <li id="spadea">
+        
+        <TreeModal 
+      name={"Bill Spadea"}
+      facts={["Host of the morning show on New Jersey 101.5 and anchor of 'Chasing News'", "2025 gubernatorial candidate", "Endorsed Mike Crispi"]}
+      treeTop={[{ name: "LINK HERE", link: null }]}   
+      treeMid={[{ name: "Bill Spadea", link: null, main: true }, { name: "LINK HERE", link: null, main: false }]} 
       treeBottom={[]}
-      imageUrl={crispi}
+      imageUrl={spadea}
     >
-      <span class="highlight" title="Click to learn more about this character">Mike Crispi</span>
+      <span class="highlight" title="Click to learn more about this character">Spadea</span>
     </TreeModal>
-    , the charismatic xxx31-year-oldxxx rock star of the group, who received a shoutout from Trump in May at the former president’s Wildwood rally. The well-dressed political activist with a signature raspy voice speaks fast and fervently. His bellicose manner energizes crowds when speaking as the chairman of the America First Republicans of New Jersey and galvanizes listeners of his syndicated podcast, “Mike Crispi Unafraid.”</p>
-    <p>In one episode, he barely took a breath between words: “It seems like the illegal vermin — I keep calling them vermin, and people keep saying, ‘Oh, that’s racist, it’s this, it’s that.’ But here’s the thing: It couldn’t be any further from reality.”</p>
-    <p id="Hughes">But Crispi is far from alone. There’s Tim Walsh, Mike Casey and Mike Byrne — members of the America First Republicans of New Jersey. There’s also <span>Ed Durr</span>, the truck driver turned GOP sensation who ousted state Senate President Stephen Sweeney from the Legislature in 2021, NJ1st podcaster Ryan McDonald and New York attorney Paul Ingrassia, a Substack writer and member of the New York Young Republican Club. Then there’s 
-      <TreeModal 
+        
+        , an election denier and COVID vaccine conspiracy theorist, who's using his <a href="https://www.nj.com/politics/2024/06/pro-trump-radio-host-jumps-into-nj-governors-race.html">radio show as a pulpit</a> to run for governor in 2025.</li>
+      
+      <li>New York attorney <a href="https://theintercept.com/2024/07/18/nick-fuentes-america-first-conference/">Paul Ingrassia</a>, a Substack writer and member of the New York Young Republican Club who supports <a href="https://www.newsweek.com/laura-loomer-message-haters-donald-trump-nothing-lose-1954873">Laura Loomer</a>, a self-described white nationalist and Islamophobe.</li>
+      
+      <li id="hughes">
+        <TreeModal 
       name={"Cynthia Hughes"}
       facts={["Founder and president of The Hughes-Foundation and the Patriot Freedom Project", "Adoptive aunt of Jan. 6 Capitol rioter Timothy Hale-Cusanelli"]}
       treeTop={[{ name: "Donald Trump", link: null }]} 
@@ -90,36 +147,45 @@
     >
       <span class="highlight" title="Click to learn more about this character">Cynthia Hughes</span>
     </TreeModal>
-      , a New Jersey mother and adoptive aunt of a U.S. Capitol rioter who has raised millions for the legal defense of Jan. 6 defendants — and become a Trump favorite in the process.</p>
-    <p id="spadea">You’ll also see political operatives like Union County Republican Party chair Carlos Santos and elected officials like Auth and Englishtown Mayor Daniel Francisco. And you’ll encounter popular 101.5 talk show host 
-      <TreeModal 
-      name={"Bill Spadea"}
-      facts={["Host of the morning show on New Jersey 101.5 and anchor of 'Chasing News'", "2025 gubernatorial candidate", "Endorsed Mike Crispi"]}
-      treeTop={[{ name: "LINK HERE", link: null }]}   
-      treeMid={[{ name: "Bill Spadea", link: null, main: true }, { name: "LINK HERE", link: null, main: false }]} 
-      treeBottom={[]}
-      imageUrl={spadea}
-    >
-      <span class="highlight" title="Click to learn more about this character">Bill Spadea</span>
-    </TreeModal>
-      , an election denier and COVID vaccine conspiracy theorist who's running for governor in 2025.</p>
-    <p>”The biggest influencers, the ones with the massive platforms, are sometimes politicians, and often people with political commentary platforms,” said Elizabeth Neumann, the former assistant secretary for counterterrorism and threat prevention at the U.S. Department of Homeland Security under Trump.</p>
-    <p>“And they frequently frame political rhetoric as political conversation and very existential threats.”</p>
-    <p id="santos">Some figures, like Auth, appear to be cynically chumming for support in the most extreme elements of the party. Others, like Ingrassia, are true believers. He is tied to Laura Loomer, a self-described white nationalist and Islamophobe, and has promoted figures like Jack Posobiec, who has collaborated with white supremacists, according to the Southern Poverty Law Center. Then there are opportunists like
-      <TreeModal 
+        
+        a New Jersey aunt of a U.S. Capitol rioter who has raised millions for the legal defense of Jan. 6 defendants through her <a href="https://patriotfreedomproject.com/">Patriot Freedom Project.</a></li>
+      
+      <li id="carlos">Union County Republican Party chair 
+        
+        <TreeModal 
       name={"Carlos Santos"}
       facts={["Union County Republican chair", "Endorsed by Mike Crispi and Paul Ingrassia"]}
       treeTop={[{ name: "Concerned Citizens of New Jersey", link: null }]}   
       treeMid={[{ name: "Carlos Santos", link: null, main: true }, { name: "Lee Mack", link: null, main: false }]} 
       treeBottom={[]}
     >  
-      <span class="highlight" title="Click to learn more about this character">Santos</span>
+      <span class="highlight" title="Click to learn more about this character">Carlos Santos</span>
     </TreeModal>
-      , who promotes activists such as Lee Mack — who hatches conspiracy theories, anti-LGBTQ+ messaging and Russian propaganda through his Concerned Citizens of New Jersey group — while distancing himself from them when questioned by NJ Advance Media.</p>
-    <p>These influencers are reaching tens of thousands of people, despite rhetoric filled with conspiracy theories, election denial and hate speech targeting minority groups.</p>
-    <p>“These guys all sit in the same cesspool. There's never more than one or two degrees of separation,” Lewis said.</p>
-    <p>But they’re not operating in Appalachia. Or the Mississippi Delta. Or the lonely, wind-swept Plains.</p>
-    <p>They’re thriving here in New Jersey.</p>
+        
+        , a former ironworker who ousted the establishment chair in June and preaches inclusion while promoting figures like Lee Mack.</li>
+
+      <li>Mack espouses conspiracy theories, anti-LGBTQ+ messaging and Russian propaganda through his <a href="https://www.concernedcitizensnj.org/">Concerned Citizens of New Jersey</a> group.</li>
+      
+      <li>Nicole Stouffer, co-founder of <a href="https://newjerseyproject.org/">the New Jersey Project</a>, a parental rights group <a href="https://www.nj.com/education/2024/06/8-nj-parents-groups-labeled-anti-government-on-new-list-by-hate-watchdog-organization.html">named an anti-government organization</a> by the Southern Poverty Law Center.</li>
+      
+      <li>Elected officials like Auth, Englishtown Mayor Daniel Francisco and Keyport Mayor Rose Araneo.</li>
+      
+      </ul>
+      <p>“These guys all sit in the same cesspool. There's never more than one or two degrees of separation,” Lewis said.</p>
+      
+      <img alt="artistic rendering of a political rally" src={image1}>
+
+      <p>They are reaching tens of thousands of people, despite rhetoric filled with conspiracy theories, election denial and hate speech targeting vulnerable communities.</p>
+      
+      <p>The most persuasive influencers are those with political commentary platforms who frame their rhetoric as conventional political discourse and existential threats, according to Elizabeth Neumann, the former assistant secretary for counterterrorism and threat prevention at the U.S. Department of Homeland Security under Trump.</p>
+      
+      <p>She is among the officials who fear the result will be politically motivated violence.</p>
+      
+      <p>“The rhetoric and the tension in the country is still at all-time highs,” Neumann said. “And just based on past precedents, we do expect we are going to see violence this year.”</p>
+      
+      <p>But these influencers are not just operating in Appalachia. Or along the Gulf Coast. Or in the lonely, wind-swept Plains.</p>
+      
+      <p>They’re thriving here in New Jersey.</p>
   </div>
 </div>
 
