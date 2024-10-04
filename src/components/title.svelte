@@ -1,4 +1,3 @@
-
 <svelte:head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,27 +13,50 @@ import imm2 from '$lib/assets/project extreme logo.png';
     <img alt="Project Extreme logo" src={imm2}/>
 </div>
 <div class="title-bg">
-    <div class="title-line"><div style="margin: 0;" class="white-bar"></div></div>
-    <div class="title-line"><div style="margin: 0;" class="red-bar"></div></div>
-    <div class="title-line"><h2>INSIDE THE</h2><div class="white-bar"></div></div>
-    <div class="title-line"><h2 style="color:red">MAINSTREAMING OF HATE.</h2><div class="red-bar"></div></div>
-    <div class="title-line"><h2>HOW TOXIC</h2><div class="white-bar"></div></div>
-    <div class="half">
-        <div class="txt-half">
-            <div class="title-line"><h2 style="color:red">INFULENCERS ARE</h2><div class="red-bar"></div></div>
-            <div class="title-line"><h2>PUSHING N.J. POLITICS</h2><div class="white-bar"></div></div>
-            <div class="title-line"><h2 style="color:red">TO THE FAR RIGHT</h2><div class="red-bar"></div></div>
-        </div>
-        <div class="txt-half">
-            <img alt="faces of Soloway, Crispi, and Durr on a blue background" src={imm1}/>
-        </div>
+    <div style="grid-row: 1/2" class="title-line"><h2>INSIDE THE</h2><div class="white-bar"></div></div>
+    <div style="grid-row: 2/3" class="title-line"><h2 style="color:red">MAINSTREAMING</h2><div class="red-bar"></div></div>
+    <div style="grid-row: 3/4" class="title-line"><h2>OF HATE.</h2><div class="white-bar"></div></div>
+    <div style="grid-row: 4/5" class="title-line"><h2 style="color:red">HOW TOXIC</h2><div class="red-bar"></div></div>
+    <div style="grid-row: 5/6" class="title-line"><h2>INFLUENCERS</h2><div class="white-bar"></div></div>
+    <div style="grid-row: 6/7" class="title-line"><h2 style="color:red">ARE PUSHING</h2><div class="red-bar"></div></div>
+    <div style="grid-row: 7/8" class="title-line"><h2>N.J. POLITICS</h2><div class="white-bar"></div></div>
+    <div style="grid-row: 8/9" class="title-line"><h2 style="color:red">TO THE</h2><div class="red-bar"></div></div>
+    <div style="grid-row: 9/10" class="title-line"><h2>FAR RIGHT</h2><div class="white-bar"></div></div>
+    <div class="spacer"></div>
+    <div class="title-image">
+    <img style="grid-row: 6/10" alt="faces of Soloway, Crispi, and Durr on a blue background" src={imm1}/>
     </div>
-    <div class="mob title-line"><div style="margin: 0;" class="white-bar"></div></div>
-    <div class="mob title-line"><div style="margin: 0;" class="red-bar"></div></div>
-    
 </div>
 
 <style>
+    .title-bg {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* 2 columns */
+        grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px; /* 9 rows with explicit height */
+        /* 9 rows */
+        gap: 10px; /* Optional: space between items */
+    }
+
+    .title-line {
+        grid-column: 1 / -1; /* Span both columns */
+    }
+
+    .title-image {
+        grid-column: 4/6; /* Place in the right column */
+        grid-row: 6 / span 4;
+        margin: 10px 10px 0 0;
+    }
+
+    .spacer{
+        grid-row: 1 / span 5;
+        grid-column: 4/6;
+        margin: 10px 10px 0 0;
+    }
+
+    .title-image>img{
+        width: 100%;
+        height: 100%;
+    }
 
     .logo-bg{
         width: 100%;
@@ -51,30 +73,13 @@ import imm2 from '$lib/assets/project extreme logo.png';
         display: flex;
         margin: 10px 1vw 0 1vw;
     }
-    .txt-half{
-        width: 50%;
-        max-width: 50%;
-    }
-    .half {
-        display: flex;
-    }
-    .txt-half>img {
-        max-width: 100%;
-        height: 174px;
-        margin: 10px 1vw 0px 0;
-        float: right;
-    }
-
-    .mob{
-        display: none;
-    }
     .title-line > h2 {
         width: max-content;
         white-space: nowrap;
         color: white;
         font-family: "Bebas Neue", sans-serif;
         font-size: 60px;
-        margin: 2px 0 0 0;
+        margin: 0;
         line-height: 50px;
     }
     .white-bar{
