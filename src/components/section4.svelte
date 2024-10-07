@@ -2,6 +2,7 @@
     import '../styles/section-styles.css';
     import chIco from '$lib/assets/rino.png';
     import image1 from '$lib/assets/cells.gif';
+    import image2 from '$lib/assets/infographic_njv3.png';
     import spadeaQuote from '$lib/assets/spadea quote.png';
 </script>
 
@@ -30,7 +31,7 @@
       
       <p>“Ridiculous. Every thinking, honest person knows that this was nothing even close to an insurrection. Jan 6th is a Leftist lie,” Spadea tweeted in 2021.</p>
       
-      <p>Spadea did not respond to a text message requesting an interview. His campaign manager requested potential interview questions, but did not follow up once they were provided.</p>
+      <p>Spadea did not respond to a text message requesting an interview. His campaign manager asked for potential interview questions, but did not follow up once they were provided.</p>
       
       <p>Ingrassia uses his <a href="https://paulingrassia.substack.com/p/how-trump-can-win-new-jersey-new?utm_source=profile&utm_medium=reader2">Substack</a> to push ideas promoted by the white nationalism movement, including that schools are indoctrinating “the hatred of whites,” he said in one of his essays.</p>
       
@@ -45,6 +46,8 @@
       <p>She has also hosted several events with Mack, and the New Jersey Project co-hosted the Shamong event in which pro-LGBTQ+ and trans policies were demonized.</p>
       
       <p>Stouffer, in an emailed response to an interview request, said she doesn’t “personally know anyone who fits” the description of political extremism, “so I'm not sure how much help I can be.”</p>
+      
+      <img alt="inforgraphic showing attendees of a political rally" src={image2}/>
       
       <p>“The only authoritarian measures I can think of were imposed by the NJEA through Governor (Phil) Murphy in 2020, 2021, and 2022 onto our children…” she wrote in part. “The kids are not OK after the extremism that impacted them for three school years…”</p>
       
@@ -78,7 +81,7 @@
       
       <p>“When I say vermin, I mean people who come into this country, they say they're seeking asylum, they bastardize the process,” he said. “They come in, they get their debit cards, they commit crime on the streets, they make it an unsafe living environment. ... I think that anybody would agree that's vermin.”</p>
       
-      <p>He then made a distinction between the “vermin” and “good” immigrants, people “seeking asylum and … fleeing oppression” — a distinction he rarely makes in his speeches or on his shows.</p>
+      <p>He then made a distinction between the “vermin” and “good” immigrants, people “seeking asylum and … fleeing oppression.” It’s a contrast he rarely illustrates in his speeches or on his shows.</p>
       
       <p>Regardless, Crispi views anyone not supporting Trump — especially other Republicans — as adversaries.</p>
       

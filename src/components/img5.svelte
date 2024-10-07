@@ -1,5 +1,5 @@
 <script>
-    import image1 from '$lib/assets/polling-place.jpg';
+    import image1 from '$lib/assets/ch5-2.png';
 
 </script>
 

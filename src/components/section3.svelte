@@ -11,11 +11,11 @@
     <h4>Words & Violence</h4>
   </div>
     <div>
-      <p>The man wore a black mask as he pulled in front of an Asbury Park church.</p>
+      <p>The man wore a black mask as he pulled in front of the Asbury Park church.</p>
 
-      <p>He watched as a crowd of nearly 200 began heading home that January night in 2023 just as an anti-racism concert ended.</p>
+      <p>He watched as a crowd of nearly 200 began heading home that January night in 2023 following an anti-racism concert.</p>
       
-      <p>But Nicholas Mucci didn’t want them to go. Not yet. He tried to block their exit with his Honda CR-V, authorities allege. Then he tossed two smoke bombs, filling the street in front of Trinity Episcopal Church with smoke.</p>
+      <p>But Nicholas Mucci didn’t want them to go. Not yet. He tried to block their exit with his Honda CR-V, authorities allege. Then he tossed two smoke bombs, filling the street in front of Trinity Episcopal Church with chaos.</p>
       
       <p>“White lives matter, too,” he yelled before speeding away.</p>
       
@@ -33,7 +33,7 @@
       
       <p>“It all started with this banner,” Tom Hauck, director of intelligence and operations at the New Jersey Office of Homeland Security and Preparedness, told NJ Advance Media.</p>
       
-      <p>The banner, hung in October 2022, carried white supremacist messaging, including “White Power.”</p>
+      <p>The banner, hung in October 2022, carried white supremacist messaging, including “White Power.”  </p>
       
       <p>“They just started pulling threads,” Hauck said. “And fast forward, now we have this guy attacking the concert at a church, blocking people from leaving, throwing smoke and bear spray.”</p>
       
@@ -49,7 +49,7 @@
       
       <p>In fact, some law enforcement officials and political experts say they’re fomenting rage and perhaps even future violence.</p>
       
-      <p>The America First movement says it promotes “traditional” Christian values. But its candidates often spread racial and cultural divisiveness, calling on the U.S. to bar immigrants and oppose feminism and <a href="https://omny.fm/shows/mike-crispi-unafraid/ban-the-trans-abolish-pronouns-protect-christians">LGBTQ+ rights</a>, according to the Anti-Defamation League. Sometimes its leaders even promote antisemitism and verbally attack migrants and other vulnerable communities.</p>
+      <p>The <a href="https://www.propublica.org/article/michigan-republicans-maga-meltdown-democracy-elections">America First movement</a> says it promotes “traditional” Christian values. But its candidates often spread racial and cultural divisiveness, calling on the U.S. to bar immigrants and oppose feminism and <a href="https://omny.fm/shows/mike-crispi-unafraid/ban-the-trans-abolish-pronouns-protect-christians">LGBTQ+ rights</a>, according to the Anti-Defamation League. Sometimes its leaders even promote antisemitism and verbally attack migrants and other vulnerable communities.</p>
       
       <p>Statistics don’t bear out many of its claims — nor the accusations of others mentioned in this reporting — that migrants and others from protected classes, for instance, are responsible for national jumps in violent crime or communicable diseases, experts say.</p>
       
@@ -57,7 +57,7 @@
       
       <p>Scapegoating and amplifying conspiracies is nothing new for either the right- or left-wing. But social media, podcasts and even gaming platforms have become the new battlefield, where ultraconservative influencers like Nick Fuentes and his Groyper movement — labeled antisemitic and white supremacist by critics — fight for hearts and minds. Their rhetoric may be more dangerous than ever.</p>
       
-      <p>“The difficult thing about America First rhetoric is that, although it is obviously very, very central to Nick Fuentes and the Groypers and that kind of extremist, white nationalist — and I argue neo-Nazi movement … the problem is that it was actually started really by Trump,” said Gia Kokotakis, an expert at the Anti-Defamation League’s Center on Extremism.</p>
+      <p>“The difficult thing about America First rhetoric is that, although it is obviously very, very central to Nick Fuentes and the Groypers and that kind of extremist, white nationalist — and I argue neo-Nazi movement … The problem is that it was actually started really by Trump,” said Gia Kokotakis, an expert at the Anti-Defamation League’s Center on Extremism.</p>
       
       <p>“And so it has this mainstream route to it.”</p>
       
@@ -67,7 +67,7 @@
       
       <p>In New Jersey, an anti-feminist attorney shot and <a href="https://www.nj.com/news/2020/07/roy-den-hollanders-crusade-to-get-women-drafted-may-have-fueled-deadly-attacks.html">killed the son</a> of U.S. District Judge Esther Salas in 2020 at their North Brunswick home. Then three years later came the attack at the Asbury Park church.</p>
       
-      <p>It is New Jersey law enforcement’s biggest fear, something they told NJ Advance Media again and again in interviews.</p>
+      <p>It is New Jersey law enforcement’s biggest fear.</p>
       
       <p>“There's been a shift from groups and organized attacks to lone offenders,” said Hauck, the Homeland Security director of intelligence and operations. “Really the big concern is the lone offender.”</p>
       
@@ -83,13 +83,13 @@
       
       <p>"Be advised this is your 1x warning to never EVER contact me again, by any means, social media, text, email or in person,” he wrote in part.</p>
       
-      <p>Spadea — a Princeton resident — was greeted like a star by a crowd of 150 to 200 in April when he hosted an event in Clark. People rushed to have their photo taken with the talk show host.</p>
+      <p>In April, Spadea was greeted like a star by a crowd of 150 to 200 when he hosted an event in Clark. People rushed to have their photo taken with the talk show host.</p>
       
       <p>Spadea, maybe the state’s most prominent Trump acolyte, captivated the crowd, arguing that in New Jersey, there was little difference between establishment Republicans and Democrats.</p>
       
       <p>“You feel burned, don’t you?” said Spadea, a man who once positioned himself as a moderate but in recent years has leaned into far-right messaging. He even supports <a href="https://nj1015.com/raucous-crowd-in-clark-nj-ready-to-win/">Clark Mayor Sal Bonaccorso</a>, who was caught on <a href="https://www.nj.com/news/2022/04/in-video-nj-mayor-apologizes-acknowledges-using-racial-slurs.html">tape dropping the n-word</a> and <a href="https://www.politico.com/newsletters/new-jersey-playbook/2024/07/03/bonaccorso-puts-n-j-gop-politics-on-a-bad-course-00166373">joking about lynching Black people.</a></p>
       
-      <p>Centrism has gotten New Jersey voters nowhere, Spadea preached to the audience, another message often pushed by the America First Republicans, who persistently lash out at the hated RINOs.</p>
+      <p>Centrism has gotten New Jersey voters nowhere, the Princeton resident preached to the audience, another message often pushed by America First Republicans, who persistently lash out at the hated RINOs.</p>
       
       <p>But a chilling response from an audience member that evening forced Spadea to pivot, if ever so slightly.</p>
       

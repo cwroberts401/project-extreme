@@ -28,13 +28,13 @@
 
 <p>He had been a feel-good story in South Jersey in 2021, spending just $2,500 to shock Sweeney, maybe the state’s most powerful politician and Democratic power broker this side of Murphy. But soon after, he was apologizing for previous social media messages, such as “A woman does have a choice! Keep her legs closed.” and "Mohammed was a pedophile! Islam is a false religion!”</p>
 
-<p>Now he’s running for governor using fearmongering tactics. He did not respond to interview requests from NJ Advance Media.</p>
+<p>Now he’s running for governor using fearmongering. He did not respond to interview requests from NJ Advance Media.</p>
 
 <p>“No state — and frankly, no nation — is immune to the scourge of extremism that has swept across the West in recent years," Murphy said in part in a statement. "However, it is appalling that some politicians in our state would choose to prey on these sentiments of hate and fear instead of upholding their responsibility to unite people around our shared identity — as New Jerseyans — as well as our shared values.”</p>
 
 <img alt="new jersey outline" src={image1}>
 
-<p>But more far-right candidates like Durr might soon be coming to New Jersey, experts say.</p>
+<p>But more far-right candidates like Durr might soon be emerging in New Jersey, experts say.</p>
 
 <p>The long-held county-line system — allowing party chairs to give candidates preferential placement on primary election ballots — is expected to be ruled unconstitutional after it was challenged in the 2023 Democratic Senate primary. Grassroots groups on the right and left view it as a victory for democracy, removing an enormous advantage fueled by favoritism and patronage.</p>
 
@@ -70,21 +70,23 @@
 
 <p>“I only knew the people that we were advised … so I was speaking on behalf of Keyport, stating that as a Republican, I support Trump,” she said. “I don't support all of these … as a Republican, I do support Trump. I support his ideas. Do I support a lot of these other people that were there? No.”</p>
 
-<p>When Crispi heard Araneo’s comments, he called her “a RINO.”</p>
+<p>When Crispi heard Araneo’s comments, he accused her of being “a weak Republican … controlled by the party machine.”</p>
 
 <p>Hudanish, the Alexandria Township committeeman, did not respond to emailed interview requests.</p>
 
-<p>Santos is another politician walking a fine line: He claims to tune out the far right’s divisive messaging, yet embraces its support. The chair of the Union County Republican Party — a powerful position with influence over which candidates receive support — Santos welcomed endorsements from Ingrassia and others at a February fundraiser co-hosted by the America First Republicans of New Jersey.</p>
+<p>Santos is another politician walking a fine line: He claims to tune out the far right’s divisive messaging, yet embraces its backing.</p>
 
-<p>“For me, a lot of that stuff I don't pay attention to,” Santos told NJ Advance Media about America First’s messaging. He added that he’s "all in on Trump,” but is not an “extreme MAGA guy” or a “conspiracy theory guy.”</p>
+<p>The chair of the Union County Republican Party — a powerful position with influence over which candidates receive support — Santos welcomed the endorsements of Ingrassia and others at a February fundraiser co-hosted by the America First Republicans of New Jersey.</p>
+
+<p>"For me, a lot of that stuff I don't pay attention to," Santos told NJ Advance Media about America First’s messaging. He added that he’s "all in on Trump,” but is not an “extreme MAGA guy” or a “conspiracy theory guy.”</p>
 
 <p>NJ Advance Media attended two Santos events — one in February and another in April, when the Mountainside man appeared with Spadea. Santos didn’t spout conspiracy theories or white nationalist rhetoric. In fact, he appeared somewhat shy speaking before large crowds.</p>
 
-<p>But Santos doesn’t want to allow inconvenient ties to those who support conspiracy theories or white nationalist views to get in the way of the coalitions he’s trying to build.</p>
+<p>But Santos doesn’t want to allow inconvenient ties to get in the way of the coalitions he’s trying to build.</p>
 
 <p>His goal is to forge a base in solidly blue Union County. He’s assembled fledgling support in Elizabeth and Linden where none existed and is growing others in Hillside, Rahway and Roselle, he says.</p>
 
-<p>“I'm more worried about building the party, growing, winning elections on a local level and just giving Republicans a voice again, especially in the underserved Republican areas,” he said.</p>
+<p>"I'm more worried about building the party, growing, winning elections on a local level and just giving Republicans a voice again, especially in the underserved Republican areas,” he said.</p>
 
 <p>Even if it means aligning with purveyors of hate.</p>
     </div>

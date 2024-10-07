@@ -14,13 +14,13 @@ import imm2 from '$lib/assets/project extreme logo.png';
 </div>
 <div class="title-bg">
     <div style="grid-row: 1/2" class="title-line"><h2>INSIDE THE</h2><div class="white-bar"></div></div>
-    <div style="grid-row: 2/3" class="title-line"><h2 style="color:red">MAINSTREAMING</h2><div class="red-bar"></div></div>
+    <div style="grid-row: 2/3" class="title-line"><h2 style="color:#bd1e2d">MAINSTREAMING</h2><div class="red-bar"></div></div>
     <div style="grid-row: 3/4" class="title-line"><h2>OF HATE.</h2><div class="white-bar"></div></div>
-    <div style="grid-row: 4/5" class="title-line"><h2 style="color:red">HOW TOXIC</h2><div class="red-bar"></div></div>
+    <div style="grid-row: 4/5" class="title-line"><h2 style="color:#bd1e2d">HOW TOXIC</h2><div class="red-bar"></div></div>
     <div style="grid-row: 5/6" class="title-line"><h2>INFLUENCERS</h2><div class="white-bar"></div></div>
-    <div style="grid-row: 6/7" class="title-line"><h2 style="color:red">ARE PUSHING</h2><div class="red-bar"></div></div>
+    <div style="grid-row: 6/7" class="title-line"><h2 style="color:#bd1e2d">ARE PUSHING</h2><div class="red-bar"></div></div>
     <div style="grid-row: 7/8" class="title-line"><h2>N.J. POLITICS</h2><div class="white-bar"></div></div>
-    <div style="grid-row: 8/9" class="title-line"><h2 style="color:red">TO THE</h2><div class="red-bar"></div></div>
+    <div style="grid-row: 8/9" class="title-line"><h2 style="color:#bd1e2d">TO THE</h2><div class="red-bar"></div></div>
     <div style="grid-row: 9/10" class="title-line"><h2>FAR RIGHT</h2><div class="white-bar"></div></div>
     <div class="spacer"></div>
     <div class="title-image">
@@ -44,7 +44,7 @@ import imm2 from '$lib/assets/project extreme logo.png';
     .title-image {
         grid-column: 4/6; /* Place in the right column */
         grid-row: 6 / span 4;
-        margin: 10px 10px 0 0;
+        margin: 10px 1vw 0 0;
     }
 
     .spacer{
@@ -55,7 +55,8 @@ import imm2 from '$lib/assets/project extreme logo.png';
 
     .title-image>img{
         width: 100%;
-        height: 100%;
+        height: 230px;
+        display: block;
     }
 
     .logo-bg{
@@ -92,13 +93,22 @@ import imm2 from '$lib/assets/project extreme logo.png';
         margin: 0 0 0 10px;
         width: 100%;
         height: 50px;
-        background-color: red;
+        background-color: #bd1e2d;
     }
 
     @media (max-width: 768px) {
         .title-bg {
-            max-width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+        gap: 5px;
         }
+
+        .title-image>img{
+        width: 100%;
+        height: 135px;
+        display: block;
+    }
 
         .title-line > h2 {
         width: max-content;

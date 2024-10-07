@@ -8,19 +8,22 @@
 <div>
     <div class="by-line">
         <h4>By Spencer Kent</h4>
-        <div class="byline-divider"></div>
+        <div class="byline-divider-red"></div>
         <h5>For NJ Advance Media</h5>
         <h5>October 3rd, 2024</h5>
     </div>
 </div>
 
 <style>
-    .byline-divider {   
+
+    
+    .byline-divider-red {   
         width: 300px;
-        height: 2px;
-        background-color: red;
+        height: 20px;
+        background-color: #bd1e2d;
         margin: 5px auto;
     }
+
     .wrapper {
         margin-top: 40px;
         width: 100%;

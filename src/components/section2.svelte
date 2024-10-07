@@ -2,7 +2,7 @@
     import '../styles/section-styles.css';
     import info1 from '$lib/assets/crispi-quote.png';
     import chIco from '$lib/assets/rino.png';
-    import image1 from '$lib/assets/ch-2-chart.png';
+    import image1 from '$lib/assets/infographic_njv2.png';
     import TreeModal from './info-modal.svelte';
     import durr from '$lib/assets/durr.jpg';
 
@@ -26,23 +26,23 @@
         <p id="ingrassia">He would stand shoulder-to-shoulder with 
           <TreeModal 
       name={"Paul Ingrassia"}
-      facts={["Substack writer", "Has attended events with Mike Crispi and Cynthia Hughes",]}
+      facts={["Substack writer", "Has attended events with Mike Crispi and Cynthia Hughes","Endorsed Carlos Santos"]}
       treeTop={[{ name: "Mike Crispi", link: "#crispi" }]} 
-      treeMid={[{ name: "Paul Ingrassia", link: null, main: true }, { name: "Cynthia Hughes", link: "#hughes", main: false }]} 
-      treeBottom={[]}
+      treeMid={[{ name: "Carlos Santos", link: "#santos", main: false },{ name: "Paul Ingrassia", link: null, main: true }, { name: "Cynthia Hughes", link: "#hughes", main: false }]} 
+      treeBottom={[{ name: "Donald Trump", link: null }]}
     >
           <span class="highlight" title="Click to learn more about this character">Ingrassia</span> 
         </TreeModal>
-        and other activists like Hughes in front of the audience.</p>
-        <p>“This is about the weaponization of government on every level that you could possibly think of,” she told the crowd, referring to the prosecution of Jan. 6 rioters.</p>
+        , Hughes and other activists in front of the audience.</p>
+        <p>“This is about the weaponization of government on every level that you could possibly think of,” Hughes told the crowd, referring to the prosecution of Jan. 6 rioters.</p>
         <p>Hughes did not respond to interview requests via email and a letter left at her home.</p>
         <p>As this event demonstrated, the far-right in New Jersey is a web, with Crispi often at its center. Here is an abridged version of their ties, six degrees of separation-style:</p>
         <p id="durr">Crispi has <a href="https://nyyrc.com/events/nj-invasion-and-liberation-event-with-mike-crispi-bill-spadea/">hosted events with Spadea</a>, who has endorsed <a href="https://mikecrispi.com/endorsements">Crispi</a>,  
           <TreeModal 
       name={"Ed Durr"}
-      facts={["Known as Ed 'the Trucker' Durr", "Former Republican state senator", "Spoke at event in Shamong"]}
-      treeTop={[{ name: "LINK HERE", link: null }]} 
-      treeMid={[{ name: "Mike Crispi", link: null, main: true }, { name: "LINK HERE", link: null, main: false }]} 
+      facts={['Known as Ed “the Trucker” Durr', "Former Republican state senator", "Spoke at event in Shamong"]}
+      treeTop={[{ name: "Bill Spadea", link: "#spadea" }]} 
+      treeMid={[{ name: "Mike Crispi", link: null, main: false }, { name: "Ed Durr", link: null, main: true }, { name: "Nicole Stouffer", link: "#stouffer", main: false }]} 
       treeBottom={[]}
       imageUrl={durr}
     >
@@ -52,9 +52,9 @@
         <p id="stouffer">Durr has been a featured speaker at events with Spadea, Santos and 
           <TreeModal 
       name={"Nicole Stouffer"}
-      facts={["Founder of the New Jersey Project", "Co-hosted event in Shamong with America First Republicans of New Jersey", "Co-hosts event with Concerned Citizens of New Jersey"]}
-      treeTop={[{ name: "the New Jersey Project", link: null }]} 
-      treeMid={[{ name: "Paul Ingrassia", link: "#ingrassia", main: false }, { name: "Nicole Stouffer", link: null, main: true }, { name: "Mike Crispi", link: "#crispi", main: false }]} 
+      facts={["Co-founder of the New Jersey Project", "Co-hosted event in Shamong with America First Republicans of New Jersey", "Has co-hosted events with Concerned Citizens of New Jersey"]}
+      treeTop={[{ name: "The New Jersey Project", link: null },{ name: "America First Republicans of New Jersey", link: null }]} 
+      treeMid={[{ name: "Lee Mack", link: "#mack", main: false }, { name: "Nicole Stouffer", link: null, main: true }, { name: "Ed Durr", link: "#durr", main: false }]} 
       treeBottom={[]}
     >
           <span class="highlight" title="Click to learn more about this character">Stouffer.</span>
@@ -64,12 +64,12 @@
         <p>Crispi is also aligned with Ingrassia, who endorsed Santos at a fundraiser in February.</p>
         <p>Everyone gathered in Keyport seemed to agree there’s a growing market for right-wing views in straight-talking New Jersey. In fact, these advocates believe they might even turn the state red this November for the first time in decades.</p>
         <img src={image1}/>
-        <p>Even if every prognosticator still sees the state as solidly blue, these influencers are slowly recasting the state GOP by roiling conservative corners of New Jersey. They’re rallying voters on a grassroots level — especially in blue-collar communities in Northwest Jersey, along the Shore and throughout South Jersey – and pressuring establishment Republicans further right.</p>
+        <p>Even if every prognosticator still sees the state as solidly blue, these influencers are slowly recasting the state GOP by roiling conservative corners of New Jersey. They’re rallying voters on a grassroots level — especially in blue-collar communities in Northwest Jersey, along the Shore and throughout South Jersey — and pressuring establishment Republicans further right.</p>
         <p>“What we do here today,” Crispi said, “will change the course of history. Because New Jersey goes red — landslide, undeniable momentum — and that's how we're going to make America great again.”</p>
         <p>The crowd — dotted with local officials such as Araneo, Alexandria Township Committeeman Tom Hudanish and Francisco, the former executive director of <a href="https://www.projectveritas.com/">Project Veritas</a> — erupted in applause.</p>
         <p>Some state officials doubt the influence of these figures in the Garden State, one of the nation’s most diverse. They mention that ultraconservatives are vastly outnumbered here. They point out that far-right candidates have repeatedly lost in statewide races, and voters haven’t elected a Republican senator since 1972 or supported a GOP presidential candidate since 1988.</p>
         <p>“In New Jersey, that doesn't exist,” former Democratic governor and recently retired state Sen. Richard Codey told NJ Advance Media.</p>
-        <p>But the GOP did <a href="https://www.nj.com/politics/2021/11/what-the-hell-just-happened-in-new-jersey-how-the-2021-election-redefined-crazy.html">shake up the state in 2021</a>, narrowly losing the gubernatorial election. Three years later, Trump’s rally in Wildwood drew 80,000 to 100,000 people, according to Lisa Fagan, spokesperson for the city.</p>
+        <p>But the GOP did <a href="https://www.nj.com/politics/2021/11/what-the-hell-just-happened-in-new-jersey-how-the-2021-election-redefined-crazy.html">shake up the state in 2021</a>, narrowly losing the gubernatorial election. Three years later, Trump’s rally in Wildwood drew 80,000 to 100,000 people, according to Lisa Fagan, spokesperson for the city. And far-right candidates are only growing in stature.</p>
         <p>“There's this anti-establishment feeling, which the party has always had an element of … and it's getting stronger,” said Mike DuHaime, a Republican operative who served as senior advisor to former Gov. Chris Christie's presidential campaign.</p>
         <p>“I guess I'll wait to see the success before I really judge what it is,” DuHaime added. “Is it a group that does big rallies or is it a group that wins elections?”</p>
         <p>But far-right Republicans have won plenty of school board races, said Micah Rasmussen, director of the Rebovich Institute for New Jersey Politics at Rider University.</p>
@@ -78,7 +78,7 @@
         <p>“If you're asking me where do we stand in the fight for the soul of the Republican Party in New Jersey, I don't think the Trump wing is there yet,” he added. “But they're certainly working it night and day.”</p>
         <p>That includes trying to move into the political mainstream.</p>
         <p>Crispi is part of a new generation of MAGA conservatives — like Charlie Kirk and Andrew Tate — using digital influence to expand their reach.</p>
-        <p>Last year, <a href="https://salempodcastnetwork.com/podcasts/mike-crispi-unafraid">"Mike Crispi Unafraid"</a> was acquired by Salem Media Group, a growing powerhouse in Christian and conservative content. Crispi is also close with Trump, often posting photos on social media from Trump Tower or Mar-a-Lago. And he’s been seen with and endorsed by Roger Stone, a Trump consultant and Republican operative <a href="https://www.washingtonpost.com/opinions/2019/01/27/how-did-roger-stone-survive-watergate/">tied to the Watergate scandal.</a></p>
+        <p>Last year, <a href="https://salempodcastnetwork.com/podcasts/mike-crispi-unafraid">"Mike Crispi Unafraid"</a> was acquired by Salem Media Group, a growing powerhouse in Christian and conservative content. Crispi is also close with Trump, often posting photos on social media from Trump Tower or Mar-a-Lago. And he’s been endorsed by Roger Stone, a Trump consultant and Republican operative <a href="https://www.washingtonpost.com/opinions/2019/01/27/how-did-roger-stone-survive-watergate/">tied to the Watergate scandal.</a></p>
         <p>Another example is Edward Durfee, a Bergen County Oath Keeper and leader of its northern New Jersey chapter, who ran for the state Assembly after the Capitol riot and lost.</p>
         <p>He also serves as chairman of the Northvale Republican Party Committee.</p>
         <p>Durfee and the rest of the local Oath Keepers — an ultraconservative anti-government organization — maintained a lower profile in the aftermath of the Jan. 6 riot. Members were “very scared of the tyranny” that followed, said Durfeee, referring to the arrests and prosecutions of those who participated in the insurrection. He was at the Capitol that day, but was not arrested.</p>

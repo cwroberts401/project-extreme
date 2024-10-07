@@ -8,9 +8,11 @@
     import Seagulls from '$lib/assets/AM2_9374.jpg';            
 </script>
 
-<p><i>Staff writers Matt Gray and Brent Johnson contributed to this report.</i></p>
-<p><i>Our journalism needs your support. Please subscribe today to NJ.com.</i></p>
+<div class="max-width">
+<p><i>Staff writers Matt Gray, Brent Johnson and Riley Yates contributed to this report.</i></p>
+<p><i>This story is part of Project Extreme, a yearlong examination into the rise of extremism in New Jersey and its permeation into everyday life across the state. The project is supported in part by a grant from The John Farmer Memorial Journalism Fund.</i></p>
 <p><i>Spencer Kent may be reached at skent@njadvancemedia.com.</i></p>
+</div>
 
 <div class="container">
     <div class="content">
@@ -21,9 +23,6 @@
             <div class="profile-info">
                 <p class="role">Reporter:</p>
                 <p class="name">Spencer Kent</p>
-                <div class="email-icon">
-                    <a href="mailto:skent@njadvancemedia.com">Email</a>
-                </div>
             </div>
         </div>
         <div class="profile">
@@ -42,9 +41,6 @@
             <div class="profile-info">
                 <p class="role">Videographer:</p>
                 <p class="name">Andre Malok</p>
-                <div class="email-icon">
-                    <a href="mailto:amalok@njadvancemedia.com">Email</a>
-                </div>
             </div>
         </div>
         <div class="profile">
@@ -89,6 +85,10 @@
 </div>
 
 <style>
+    .max-width {
+        max-width: 600px;
+        margin: 0 auto;
+    }
     p {
         color: white !important;
         text-align: center;
@@ -130,11 +130,13 @@
 
     .role {
         font-size: 12px; /* text-xs */
-        color: #cccccc; /* text-gray-400 */
+        color: #cccccc; 
+        margin: 1px 0 0 0;/* text-gray-400 */
     }
 
     .name {
-        font-size: 14px; /* text-sm */
+        font-size: 14px;
+        margin: 1px 0 0 0; /* text-sm */
     }
 
     .email-icon {
@@ -152,7 +154,7 @@
         padding-top: 48px; /* pt-12 */
         padding-bottom: 8px; /* pb-2 */
         font-size: 14px;
-        font-family: 'Courier New', Courier, monospace;
+        font-family: Bebas Neue, sans-serif;
     }
 
     .article {
@@ -164,7 +166,7 @@
         margin: 0 auto; /* mx-auto */
         cursor: pointer;
         color: white !important;
-        font-family: 'Courier New', Courier, monospace;
+        font-family: Bebas Neue, sans-serif;
     }
 
     .article-text {
@@ -177,17 +179,19 @@
 
     .article-title {
         margin: 0; /* Reset margin for h5 */
+        font-family: Bebas Neue, sans-serif;
+        text-align: center;
     }
 
     .article-date {
         font-size: 12px; /* text-xs */
         color: #cccccc; /* text-gray-400 */
-        margin-left: 12px; /* ml-3 */
-        text-align: left;
+        margin-top: 0; /* ml-3 */
+        text-align: center;
     }
 
     .article-image {
-        width: 125px;
+        width: 300px;
         margin: 12px; /* m-3 */
     }
 
